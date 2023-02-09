@@ -1,0 +1,22 @@
+.exportList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 10px;
+  width: 80%;
+}
+table tbody th {
+  background-color: inherit !important;
+}
+
+table th,
+td {
+  width: 50% !important;
+  border: 0 !important;
+}
+
+@media (max-width: 960px) {
+  .exportList {
+    width: 95%;
+  }
+}

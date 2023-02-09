@@ -1,0 +1,47 @@
+.tui-image-editor-header { display: none !important;  } .tui-image-editor-container .tui-image-editor-main { top: 0; }
+.tui-image-editor-controls-buttons{
+    display: none !important;
+}
+.tie-btn-zoomIn,.tie-btn-zoomOut,.tie-btn-hand,.tie-btn-delete,.tie-btn-deleteAll{
+    display: none !important;
+}
+
+.theme-editor-container{
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.action-buttons-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    /* position: absolute;
+    bottom:0;
+    left: 0;
+    z-index: 1300; */
+}
+
+.tui-image-editor-main-container,.tui-image-editor-container,.tui-image-editor-controls{
+    background: transparent !important;
+}
+.tui-image-editor-submenu-style{
+    background: transparent !important;
+}
+
+.tui-image-editor-submenu-item  label{
+    color: #000 !important;
+}
+
+.tui-image-editor-container .tui-image-editor-virtual-range-pointer{
+    color: #000 !important;
+    background: currentColor !important;
+}
+
+.tui-image-editor{
+    /* top: -65px !important; */
+}
+

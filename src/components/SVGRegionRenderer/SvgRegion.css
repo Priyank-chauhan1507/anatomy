@@ -1,0 +1,15 @@
+.svg-region > div > div {
+  display: none;
+  cursor: pointer;
+}
+
+.svg-region .action-buttons {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: -15px;
+  flex-direction: column;
+}
+.svg-region:hover .action-buttons {
+  display: flex;
+}

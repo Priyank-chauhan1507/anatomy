@@ -1,0 +1,39 @@
+$primary-color: #1d273d;
+$secondary-color: #0c27c8;
+
+$map-height: 100vh;
+$map-mobile-width: 100vw;
+$navbar-height: 70px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin transition-ease {
+  transition: all 0.5s ease-in-out;
+}
+
+@mixin media-sm {
+  @media screen and (min-width: 450px) {
+    @content;
+  }
+}
+
+@mixin media-md {
+  @media screen and (min-width: 800px) {
+    @content;
+  }
+}
+
+@mixin media-lg {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+@mixin media-xl {
+  @media screen and (min-width: 1600px) {
+    @content;
+  }
+}

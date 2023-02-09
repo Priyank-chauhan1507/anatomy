@@ -1,0 +1,78 @@
+.subToolbar {
+  width: 100%;
+  max-width: calc(100vh-70px);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.3);
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 0.2rem;
+}
+
+.action {
+  padding: 4px;
+  /* width: 25%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.subToolbar .MuiSvgIcon-root.MuiSelect-icon.MuiSelect-iconOutlined {
+  display: none;
+}
+
+.subToolbar .MuiSelect-root {
+  font-size: 0.95rem;
+  padding: 0.4em !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.actionText {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-right: 0.3em;
+}
+
+@media (max-width: 1218px) and (min-width: 960px) {
+  .subToolbar {
+    padding: 0.5rem 0.15rem;
+    gap: 0.025rem;
+  }
+  .action
+    .MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input {
+    font-size: clamp(0.75rem, 1.248vw, 0.95rem);
+    padding: 0.4em 0.2em;
+  }
+  .actionText {
+    font-size: clamp(0.7rem, 1.117vw, 0.85rem);
+  }
+}
+
+@media (max-width: 445px) {
+  .subToolbar {
+    padding: 0.5rem 0.15rem;
+    gap: 0.025rem;
+  }
+  .action
+    .MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input {
+    font-size: clamp(0.75rem, 3.416vw, 0.95rem);
+    padding: 0.4em 0.2em;
+  }
+  .actionText {
+    font-size: clamp(0.7rem, 3.056vw, 0.85rem);
+  }
+}
+
+@media (max-width: 1292px){
+  #SettingsIcon{
+    padding:3px
+  }
+  #left_grid,#right_grid{
+    gap:3px !important
+  }
+}

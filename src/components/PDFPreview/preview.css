@@ -1,0 +1,161 @@
+.exportModal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #00000080;
+    align-items: center;
+    justify-content: center;
+    row-gap: 16px;
+    display: none;
+}
+
+.anatomic-image {
+    object-fit: contain;
+    width: auto;
+    height: 100%;
+    min-width: 0;
+    /* max-height: 430px; */
+}
+
+.modalBox {
+    width: 820px;
+    height: 940px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.pr-container {
+    max-height: 800px;
+    overflow-y: scroll;
+}
+
+#pdf-preview {
+    width: 760px;
+    padding: 16px !important;
+}
+
+#pdf-preview .map-cnt {
+    width: 730px;
+}
+
+.pdf-header-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+#brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+#logo {
+    width: 60px;
+}
+.pdf-info {
+    font-size: 13px;
+    max-width: 50%;
+}
+
+.summary {
+    margin: 24px 0;
+}
+
+.tables {
+    margin-bottom: 20px;
+}
+
+.tables h2 {
+    margin-bottom: 14px;
+}
+
+.tables ul {
+    list-style-type: upper-alpha;
+}
+
+.tables ul li {
+    margin-left: 22px !important;
+}
+
+table {
+    width: 100%;
+}
+
+#pdf-preview table th {
+    background-color: blue;
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+table tr {
+    page-break-after: always;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 4px;
+    font-size: 12px;
+    vertical-align: top !important;
+}
+
+table td:last-child {
+    width: 175px;
+}
+
+table td:nth-child(1) {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+#download-btn,
+#cancel-btn {
+    padding: 6px;
+    background-color: #3aee76;
+    outline: 0;
+    border: 0;
+    font-size: 14px;
+    cursor: pointer;
+    width: 160px;
+    transition: 0.5s;
+}
+
+#cancel-btn {
+    background-color: #eb7c68;
+}
+
+.pdfBtn:hover {
+    transform: scale(1.2);
+}
+
+.export-map-div {
+    width: 730px;
+    aspect-ratio: 11/8.5;
+    position: relative;
+}
+
+.anatomic-image-div {
+    margin-top: 150px;
+    width: 730px;
+    height: 301px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.export-map-image {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,27 @@
+.diag--heading {
+  background: #000;
+  color: #fff;
+  padding: 8px;
+}
+.diag--search__table {
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: #999;
+}
+.diag--search__table
+  .MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon
+  .MuiInputBase-root {
+  padding-right: 0 !important;
+}
+.diag--search__table .MuiTableCell-head {
+  font-weight: bold;
+}
+.diag--searchBox {
+  margin-top: 12px;
+}
+
+.diag__border-box {
+  padding: 6px;
+  border: 1px solid #000;
+}

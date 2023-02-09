@@ -1,0 +1,188 @@
+.app__nav {
+  width: 100%;
+  height: $navbar-height;
+  background-color: #e1e1e1;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  padding-left: 10px;
+
+  &__logo {
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+
+    img {
+      height: 85%;
+    }
+  }
+
+  &__switch__label {
+    font-size: 10px;
+    padding-right: 3px;
+    width: 85px;
+  }
+
+  &__divider {
+    height: 100%;
+    border-right: 1px solid black;
+  }
+
+  &__listSelect {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+
+    &__SVG {
+      margin-right: 3px;
+    }
+
+    &__label {
+      padding-right: 5px;
+    }
+
+    &__switch {
+      height: 60px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #ffffff;
+
+      label {
+        margin-right: 0px !important;
+      }
+
+      .list__btn {
+        position: relative;
+        width: 100px;
+        height: 100%;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        @include transition-ease;
+
+        .dropdown {
+          display: none;
+
+          &.showDropdown {
+            display: block;
+          }
+        }
+
+        &.list__btn__selector {
+          height: 100%;
+          position: absolute;
+          z-index: 0;
+          background-color: $secondary-color;
+          left: 0px;
+          width: 170px;
+          @include transition-ease;
+          &.unordered.procedures {
+            left: 100px;
+          }
+          &.unordered.diagnosis {
+            left: 200px;
+          }
+          &.diagnosis {
+            left: 300px;
+          }
+          &.comments {
+            left: 400px;
+          }
+          &.distribution {
+            left: 0px;
+          }
+        }
+
+        .MuiInput-underline:before {
+          border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+        }
+
+        &.selected {
+          width: 170px;
+          color: #ffffff;
+          @include transition-ease;
+
+          .MuiInput-underline:before {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+          }
+
+          &:hover {
+            .MuiInput-underline:before {
+              border-bottom: 2px solid rgba(255, 255, 255, 1);
+            }
+          }
+
+          select {
+            color: white;
+            @include transition-ease;
+
+            option {
+              color: rgba(0, 0, 0, 0.87);
+            }
+          }
+
+          svg {
+            fill: white;
+          }
+        }
+      }
+    }
+  }
+
+  &__language {
+    margin-left: auto;
+
+    .MuiInput-underline:before {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  .app__nav {
+    &__logo {
+      margin-right: 20px;
+    }
+
+    &__listSelect {
+      padding-left: 10px;
+
+      &__label {
+        font-size: 14px;
+      }
+
+      &__switch > .list__btn {
+        width: 110px;
+        font-size: 14px;
+        &.list__btn__selector.diagnosis {
+          left: 330px;
+        }
+        &.list__btn__selector.unordered.procedures {
+          left: 110px;
+        }
+        &.list__btn__selector.unordered.diagnosis {
+          left: 220px;
+        }
+        &.list__btn__selector.comments {
+          left: 440px;
+        }
+      }
+    }
+
+    &__language {
+      &__dropdown {
+        max-width: 100px !important;
+      }
+    }
+  }
+}

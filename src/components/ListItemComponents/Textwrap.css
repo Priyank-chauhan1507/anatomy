@@ -1,0 +1,11 @@
+.textwrap
+{
+    /* overflow: "hidden";
+    width: "149px";
+    white-space: "nowrap";
+    text-overflow: "ellipsis"; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 133px;
+}

@@ -1,0 +1,296 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  touch-action: none;
+  overflow-x: hidden;
+}
+
+.view-x-ipa-svg {
+  overflow: hidden;
+  height: 100%;
+}
+
+* {
+  -webkit-user-select: none;
+  /* Chrome none / Safari none */
+  -moz-user-select: none;
+  /* Firefox none */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+}
+
+.MuiInputBase-input {
+  -webkit-user-select: auto;
+  user-select: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Map Resets */
+
+.uploaded-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.canvas-container {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%);
+}
+
+g#CopyrightAnatomyMapper {
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+#HG-Oral_Anatomy,
+#G-Oral_Anatomy {
+  display: none;
+}
+
+.image-container {
+  max-height: 100px;
+  /* min-width: 140px; */
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-container img {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.image-list-textfield.image-list-textfield {
+  padding: 0px 10px;
+}
+
+.image-list-item {
+  display: flex;
+  width: 100%;
+  /* padding: 0px 10px 0px 10px; */
+}
+
+.image-actions {
+  margin-left: auto;
+}
+
+.images-box {
+  display: flex;
+  overflow: auto;
+}
+
+.listContent__Images {
+  display: block;
+  width: 100%;
+}
+
+.svg-located-pin {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.active-path-x {
+  fill: rgb(141, 235, 137) !important;
+  opacity: 1 !important;
+  /* z-index: 1300; */
+}
+
+.active-path-x-hierarchy {
+  fill: rgb(255, 0, 0) !important;
+  opacity: 1 !important;
+  /* z-index: 1300; */
+}
+
+.active-path-x:hover {
+  stroke: #fba70e !important;
+}
+
+@media screen and (max-width: 400px) {
+  .images-box {
+    max-width: 360px;
+  }
+  .hide_on_mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .images-box {
+    max-width: 400px;
+  }
+  .hide_on_mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .images-box {
+    max-width: 500px;
+  }
+  .hide_on_mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  .images-box {
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  .images-box {
+    max-width: 700px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 950px) {
+  .images-box {
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1050px) {
+  .images-box {
+    max-width: 340px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  .images-box {
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  .images-box {
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  .images-box {
+    max-width: 800px;
+  }
+}
+
+.flash-animation {
+  animation: clickedMarkerAnimation infinite ease-in 0.2s;
+}
+
+@keyframes clickedMarkerAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.not-allowed-line {
+  position: relative;
+}
+
+/* .not-allowed-line::before {
+  content: "";
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  height: 2px;
+  position: absolute;
+  background-color: red;
+  text-decoration: line-through;
+} */
+
+/* In Case map context is list */
+
+.list__context-map > .canvas-container,
+.pin_select__context-map > .canvas-container,
+.region_select__context-map > .canvas-container,
+.pin_drag__context-map > .canvas-container,
+.region_drag__context-map > .canvas-container {
+  touch-action: none;
+  pointer-events: none;
+}
+
+.list__context-map > #loaded-svg-cont > svg > .map-items {
+  touch-action: none;
+  pointer-events: none;
+}
+
+.pin_select__context-map > #loaded-svg-cont > svg > .map-items-marker {
+  cursor: pointer;
+}
+
+.map-items-region {
+  display: none;
+}
+
+.map-items-marker > g {
+  transform: scale(var(--map-scale));
+}
+
+.region_select__context-map > #loaded-svg-cont > svg > .map-items-region,
+.region_drag__context-map > #loaded-svg-cont > svg > .map-items-region {
+  cursor: pointer;
+  display: block;
+}
+
+#clicked_marker {
+  touch-action: none;
+  pointer-events: none;
+}
+
+/* In Case map context is pin_select or region_select */
+
+.pin_select__context-map > #loaded-svg-cont > svg > g,
+.region_select__context-map > #loaded-svg-cont > svg > g {
+  touch-action: none;
+  pointer-events: none;
+}
+
+.canvas-container {
+  z-index: 2;
+}
+
+#loaded-svg-cont {
+  z-index: 1;
+}
+
+#loaded-svg-cont > svg {
+  --map-scale: 1;
+}
+#proofofconcept::-webkit-scrollbar {
+  display: none !important;
+}
+
+.dialog-copy-pins::-webkit-scrollbar {
+  width: 10px !important;
+  background-color: white;
+}
+
+.dialog-copy-pins::-webkit-scrollbar-thumb {
+  width: 10px !important;
+  background-color: rgb(208, 208, 208);
+  border-radius: 10px;
+}

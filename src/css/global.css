@@ -1,0 +1,78 @@
+#HierarchicalLayers {
+  --opacity: 0;
+  --stroke: auto;
+  --stroke-width: auto;
+  --stroke-dash-array: auto;
+  --stroke-linejoin: auto;
+  --opacity-description:1;
+  --mirror-image-transform: ""
+}
+#HierarchicalLayers path,
+#HierarchicalLayers polygon {
+  opacity: var(--opacity);
+  stroke: var(--stroke);
+  stroke-width: var(--stroke-width);
+  stroke-dasharray: var(--stroke-dash-array);
+  stroke-linejoin: var(--stroke-linejoin);
+}
+
+#HierarchicalLayers {
+  opacity: 1;
+}
+
+.hideScrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.accordion-root {
+  width: 100%;
+}
+
+.accordion-heading {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #fff;
+}
+
+.hmap-opacity-1 path,
+.hmap-opacity-1 polygon {
+  opacity: inherit !important;
+  fill: inherit;
+}
+
+.textFieldClasses > div {
+  margin: 8px !important;
+  /* width: 25ch !important; */
+}
+
+.textFieldClasses > fieldset {
+  margin: 8px !important;
+}
+
+.badgeStyles {
+  position: absolute;
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+  padding: 0.51rem;
+  height: 16px;
+  width: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6rem;
+  top: -6px;
+  left: 19px;
+}
+
+.less-pad {
+  padding: 4px !important;
+}
+
+.map-items text{
+  transform : var(--mirror-image-transform);
+}
+
+.map-items text:nth-child(3) {
+  opacity: var(--opacity-description);
+}

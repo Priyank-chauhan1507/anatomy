@@ -1,0 +1,89 @@
+.grpDocumentation .MuiAccordionDetails-root{
+  display: flex;
+  flex-direction: column;
+  padding: .5rem;
+}
+
+.grpDocumentation .MuiAccordionSummary-content{
+  display: flex;
+  flex-direction: column;
+  padding: .1rem .5rem !important;
+}
+
+.grpTitle{
+  font-weight: 500;
+  /* padding: .2rem .5rem; */
+}
+
+.grpNotes{
+  font-size: .85rem;
+}
+
+.inputRow{
+  display: flex;
+  gap: .3rem;
+  /* justify-content: center; */
+  align-items: center;
+  margin-bottom: .5rem;
+  padding: .3rem;
+}
+
+.summaryFields{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.attachments{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: .5rem;
+}
+
+.attIcons{
+  width: 12%;
+}
+
+.attGrid{
+  width: 88%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: .5rem;
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 80px); */
+  /* column-gap: .5rem; */
+  /* row-gap: .5rem; */
+  border: 1px solid #0D27C8;
+  border-radius: .5rem;
+  min-height: 100px;
+  padding: .5rem;
+  overflow-x: auto;
+}
+
+.attImageColumn{
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+}
+
+.imgContainer{
+  position: relative;
+}
+
+.attImage{
+  width: 80px;
+  height: 50px;
+}
+
+.downloadBtn{
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+}
+
+/* .imgContainer:hover .downloadBtn{ */
+  /* display: block; */
+/* } */

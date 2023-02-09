@@ -1,0 +1,734 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.squarePin {
+  /* width: 24px !important;
+  height: 24px !important; */
+}
+
+.app__nav {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 70px;
+  background-color: #e1e1e1;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  padding-left: 10px;
+  overflow: auto;
+}
+
+.app__nav::-webkit-scrollbar {
+  display: none;
+}
+
+.app__nav__logo {
+  height: 100%;
+  width: fit-content;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  /* margin-right: 50px; */
+}
+
+.app__nav__logo img {
+  height: 85%;
+}
+
+.app__nav__switch__label {
+  font-size: 10px;
+  padding-right: 3px;
+  width: 85px;
+  margin-left: 10px;
+}
+
+.app__nav__switch {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__nav__divider {
+  height: 100%;
+  border-right: 1px solid black;
+}
+
+.app__nav__listSelect {
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.app__nav__listSelect__SVG {
+  margin-right: 3px;
+}
+
+.app__nav__listSelect__label {
+  padding-right: 5px;
+}
+
+.app__nav__listSelect__switch {
+  height: 60px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffffff;
+}
+
+.app__nav__listSelect__switch label {
+  margin-right: 0px !important;
+}
+
+.app__nav__listSelect__switch .list__btn {
+  position: relative;
+  width: 100px;
+  height: 100%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.app__nav__listSelect__switch .list__btn .dropdown {
+  display: none;
+}
+
+.app__nav__listSelect__switch .list__btn .dropdown.showDropdown {
+  display: block;
+}
+
+.app__nav__listSelect__switch .list__btn.list__btn__selector {
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  background-color: #0c27c8;
+  left: 0px;
+  width: 170px;
+  transition: all 0.5s ease-in-out;
+}
+
+.app__nav__listSelect__switch
+  .list__btn.list__btn__selector.unordered.procedures {
+  left: 100px;
+}
+
+.app__nav__listSelect__switch
+  .list__btn.list__btn__selector.unordered.diagnosis {
+  left: 200px;
+}
+
+.app__nav__listSelect__switch .list__btn.list__btn__selector.diagnosis {
+  left: 300px;
+}
+
+.app__nav__listSelect__switch .list__btn.list__btn__selector.comments {
+  left: 400px;
+}
+
+.app__nav__listSelect__switch .list__btn.list__btn__selector.distribution {
+  left: 0px;
+}
+
+.app__nav__listSelect__switch .list__btn .MuiInput-underline:before {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.app__nav__listSelect__switch .list__btn.selected {
+  width: 170px;
+  color: #ffffff;
+  transition: all 0.5s ease-in-out;
+}
+
+.app__nav__listSelect__switch .list__btn.selected .MuiInput-underline:before {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.app__nav__listSelect__switch
+  .list__btn.selected:hover
+  .MuiInput-underline:before {
+  border-bottom: 2px solid white;
+}
+
+.app__nav__listSelect__switch .list__btn.selected select {
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.app__nav__listSelect__switch .list__btn.selected select option {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.app__nav__listSelect__switch .list__btn.selected svg {
+  fill: white;
+}
+
+.app__nav__language {
+  margin-left: auto;
+}
+
+.app__nav__language .MuiInput-underline:before {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+@media (max-width: 960px) {
+  .app__nav__logo {
+    margin-right: 20px;
+  }
+  .app__nav__listSelect {
+    padding-left: 10px;
+  }
+  .app__nav__listSelect__label {
+    font-size: 14px;
+  }
+  .app__nav__listSelect__switch > .list__btn {
+    width: 110px;
+    font-size: 14px;
+  }
+  .app__nav__listSelect__switch > .list__btn.list__btn__selector.diagnosis {
+    left: 330px;
+  }
+  .app__nav__listSelect__switch
+    > .list__btn.list__btn__selector.unordered.procedures {
+    left: 110px;
+  }
+  .app__nav__listSelect__switch
+    > .list__btn.list__btn__selector.unordered.diagnosis {
+    left: 220px;
+  }
+  .app__nav__listSelect__switch > .list__btn.list__btn__selector.comments {
+    left: 440px;
+  }
+  .app__nav__language__dropdown {
+    max-width: 100px !important;
+  }
+}
+
+.app__mainBody {
+  position: relative;
+  top: 75px;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  height: calc(100vh - 70px - 45px);
+}
+
+.app__mainBody__SVGMapper {
+  min-width: 0;
+  width: min(65vw, 65%);
+}
+
+.app__mainBody__SVGMapper > div {
+  width: 100%;
+  height: 100%;
+}
+
+.app__mainBody__list {
+  width: 35vw;
+  flex: 1;
+  padding: 0 5px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.app__mainBody__list_with-scrollbar {
+  height: calc(100vh - 75px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.app__mainBody__list::-webkit-scrollbar {
+  display: none;
+}
+
+.app__mainBody__list__patient__info__list {
+  padding-bottom: 5px;
+}
+
+.app__mainBody__list__accordion__list {
+  padding-bottom: 5px;
+}
+
+.app__mainBody__list__header > .MuiAccordionSummary-content {
+  align-items: center;
+}
+
+.app__mainBody__list__header .MuiSvgIcon-root {
+  fill: #fff !important;
+}
+
+.app__mainBody__list__body {
+  padding: 0px !important;
+}
+
+.app__mainBody__list__body .list__reorder1,
+.action1 {
+  padding: 4px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid #b6bde7;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.app__mainBody__list__body .list__reorder.descendingList {
+  background-color: #b6bde7;
+  transition: all 0.5s ease-in-out;
+}
+
+.app__mainBody__list__body .list__reorder.emptyList {
+  display: none;
+}
+
+.app__mainBody__list__buttons {
+  padding: 10px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__mainBody__list__buttons Button {
+  margin: 5px;
+  background-color: #0c27c8;
+  color: #fff;
+  text-transform: inherit;
+  word-spacing: -1px;
+}
+
+.app__mainBody__list__buttons Button:hover {
+  background-color: #1d273d;
+}
+
+.app__mainBody__exportList {
+  margin-top: 50px;
+  display: none;
+  justify-content: center;
+}
+
+.app__mainBody__exportList.showList {
+  display: flex;
+}
+
+Button.app__mainBody__list__action__btns {
+  background: transparent;
+  height: 45px;
+  max-width: 45px;
+  min-width: 45px;
+  cursor: pointer;
+  margin-right: clamp(4px, 0.57vw, 8px);
+}
+
+Button.app__mainBody__list__action__btns:nth-last-of-type(1) {
+  margin-left: -2.5px;
+  margin-right: 11px;
+}
+
+.app__mainBody__list__action__btns .MuiButton-label {
+  white-space: nowrap;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.app__mainBody__list__action__btns .MuiSvgIcon-colorPrimary {
+  fill: #3f51b5 !important;
+}
+
+/* Draggable pins */
+
+.draggable {
+  /* cursor: move; */
+  cursor: all-scroll;
+}
+
+@media (max-width: 1484px) {
+  .app__mainBody__SVGMapper {
+    width: 55w;
+  }
+  .app__mainBody__list {
+    width: 35vw;
+  }
+}
+
+@media (max-width: 1100px) and (min-width: 960px) {
+  .listContent__basicInfo > div:first-of-type > div:first-of-type {
+    gap: 8px !important;
+  }
+  Button.app__mainBody__list__action__btns {
+    height: clamp(30px, 3.31vw, 45px);
+    max-width: clamp(30px, 3.31vw, 45px);
+    min-width: clamp(30px, 3.31vw, 45px);
+  }
+  Button.app__mainBody__list__action__btns:nth-last-of-type(1) {
+    margin-left: -4.5px;
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: 1050px) and (min-width: 960px) {
+  .listContent__basicInfo > div:first-of-type > div:first-of-type {
+    gap: 0 !important;
+  }
+}
+
+@media (max-width: 1024px) and (orientation: portrait) {
+  .app__mainBody {
+    display: grid;
+    grid-template-areas: "map" "list";
+    gap: 1rem;
+  }
+  .app__mainBody__SVGMapper {
+    grid-area: "map";
+    height: 40vh;
+    width: 100%;
+    position: fixed;
+  }
+  .app__mainBody__list {
+    grid-area: "list";
+    width: 100vw;
+    top: 40vh;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .app__nav__switch {
+    display: none;
+  }
+}
+
+#loaded-svg-cont #HierarchicalLayers rect,
+#loaded-svg-cont #HierarchicalLayers circle,
+#loaded-svg-cont #HierarchicalLayers ellipse {
+  opacity: 0;
+}
+
+@media (max-width: 400px) {
+  .listContent__basicInfo > div:first-of-type > div:first-of-type {
+    gap: 5px !important;
+  }
+  Button.app__mainBody__list__action__btns {
+    height: clamp(30px, 10.73vw, 43px);
+    max-width: clamp(30px, 10.73vw, 43px);
+    min-width: clamp(30px, 10.73vw, 43px);
+  }
+  Button.app__mainBody__list__action__btns:nth-last-of-type(1) {
+    margin-left: -5px;
+    margin-right: 8px;
+  }
+}
+
+.app__mainBody::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (min-width: 1194px) and (orientation: landscape) {
+  .app__mainBody::-webkit-scrollbar {
+    display: none;
+  }
+  .app__mainBody__SVGMapper {
+    height: 81vh;
+    /* width: max-content; */
+    padding-inline: 0;
+    margin-inline: 0;
+  }
+}
+
+@media (max-width: 960px) {
+  .app__mainBody {
+    flex-direction: row;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .app__mainBody__SVGMapper {
+    width: 100vw;
+    /* height gets set using useEffect on line 1442 (App.js)  */
+    height: calc(100vh - 245.7px - 70px);
+    position: sticky;
+    top: 70px;
+    left: 0;
+  }
+  .app__mainBody__list {
+    width: 100vw;
+    height: 245.7px;
+  }
+  .app__mainBody__list__accordion {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .app__mainBody__list__accordion__list {
+    width: 100% !important;
+  }
+}
+
+.listContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+.listContent:not(.listContent:last-child) {
+  border-bottom: 2px solid lightgray;
+}
+
+.listContent__basicInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.listContent__basicInfo p {
+  font-size: 14px;
+  line-height: 1;
+  display: inline-block;
+  flex: 1;
+}
+
+.listContent__basicInfo__anatomic_name span {
+  display: inline-block;
+  padding: 2.5px;
+}
+
+.listContent__basicInfo__anatomic_name span .MuiPaper-root {
+  display: none;
+}
+
+.listContent__basicInfo__anatomic_name span:hover .MuiPaper-root {
+  display: flex;
+}
+
+.listContent__basicInfo__anatomic_name .type-laterality {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.listContent__basicInfo__anatomic_name .type-prefix,
+.listContent__basicInfo__anatomic_name .type-suffix {
+  font-style: italic;
+}
+
+.listContent__basicInfo__anatomic_name .type-name {
+  font-weight: 900;
+}
+
+.listContent__basicInfo__anatomic_name .type-research {
+  display: none;
+}
+
+.listContent__basicInfo__anatomic_name .type-order {
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.listContent__basicInfo__dropdown {
+  padding: 0px !important;
+  width: max-content !important;
+  height: 40px !important;
+}
+
+.listContent__basicInfo__dropdown .MuiOutlinedInput-input:focus {
+  background-color: transparent !important;
+}
+
+.listContent__additionalInputs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.listContent__additionalInputs > div {
+  width: calc(50% - 20px);
+}
+
+.listContent__additionalMetaData {
+  background-color: #999;
+  color: #000;
+  padding: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+  width: calc(100% - 30px);
+  margin: 20px auto !important;
+  cursor: pointer;
+}
+
+.listContent__additionalMetaData a:visited,
+.listContent__additionalMetaData a:link {
+  color: #1f3acf;
+  margin-left: 10px;
+}
+
+.listContent_expandedInfo_DiagnosisDescriptionAccordion {
+  background-color: #999;
+  color: #000;
+  /* padding: 10px; */
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+  width: calc(100% - 30px);
+  margin: 20px auto !important;
+  cursor: pointer;
+  position: relative;
+}
+
+.Pin-Marker-Wrapper {
+  stroke: white;
+  paint-order: stroke;
+  stroke-width: 100px;
+}
+
+.Pin-Label,
+.Pin-Hyphen {
+  font-weight: 700;
+  stroke: white;
+  paint-order: stroke;
+  stroke-width: 4px;
+}
+
+.Pin-Hyphen {
+  outline: 0.4px solid white;
+}
+
+.Pin-Label[dominant-baseline="middle"] {
+  stroke-width: 0;
+}
+
+.Pin-Description {
+  stroke-width: 4px !important;
+}
+
+.listContent_expandedInfo_DiagnosisDescriptionAccordion_label {
+  position: absolute;
+  top: 0.2ex;
+}
+
+.listContent__userData {
+  padding-right: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listContent__userData div {
+  display: flex;
+  align-items: center;
+}
+
+.listContent__userData div span {
+  font-size: 12px;
+}
+
+.listContent .MuiIconButton-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: fit-content !important;
+}
+
+/* MaterialUI Typography */
+
+.MuiDialogContent-root > .MuiTypography-root,
+.TermsPolicyAccordianDetails .MuiTypography-root {
+  white-space: pre-line;
+}
+
+.TermsPolicyAccordianSummary,
+.TermsPolicyAccordianSummary > .MuiAccordionSummary-content {
+  width: 100%;
+}
+
+.app__mainBody__list {
+  padding-block: 0px;
+}
+
+@media (orientation: portrait) {
+  .app__mainBody__SVGMapper {
+    height: 40vh;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+  }
+  .app__mainBody__list__patient__info__list {
+    margin-top: 40vh;
+    overflow-y: hidden;
+    z-index: -1000;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 900px) and (orientation: landscape) {
+  .app__mainBody__SVGMapper {
+    width: 60%;
+    height: 65vh;
+  }
+}
+
+.svg-opacity path,
+.svg-opacity polygon {
+  opacity: 1;
+}
+
+.canvas-container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.canvas-container > .upper-canvas {
+  height: 100% !important;
+}
+
+.canvas-container > .lower-canvas {
+  height: 100% !important;
+}
+
+.listContent_expandedInfo {
+  width: 100%;
+  padding-inline: 16px;
+}
+
+.listContent_expandedInfo_qrCode-Region {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.col-2-des {
+  display: flex;
+  width: 100%;
+}
+
+.col-2-des > .col-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-2-des > .col-2 {
+  flex: 1;
+  overflow: auto;
+}
+
+.listContent_expandedInfo_Links {
+  margin-top: 20px;
+}

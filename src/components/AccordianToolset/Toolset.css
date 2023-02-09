@@ -1,0 +1,68 @@
+.toolset__flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .toolset__body {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: #e1e1e1;
+    z-index: 1000;
+    margin-right:10px
+  }
+  
+  .toolset__tool {
+    height: 100%;
+    border: solid 2px black;
+    padding: 1px;
+    padding-top: 6px;
+  }
+  
+  .toolset__tool__selected {
+    background-color: blue;
+    color: white;
+  }
+  
+  .toolset__tool__notselected {
+    background-color: gray;
+  }
+  
+  .toolset__tool__com {
+    padding-top: 4px;
+    background-color: #e1e1e1;
+  }
+  
+  .toolset__starttool {
+    background-color: #e1e1e1;
+    height: 100%;
+    padding: 5px;
+  }
+  
+  .toolset__fixed1 {
+    position: fixed;
+    top: 0;
+    right: 58px;
+    height: 57.5px;
+  }
+  .toolset__fixed2 {
+    position: fixed;
+    top: 0;
+    right: 29px;
+    height: 57.5px;
+  }
+  .toolset__fixed3 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 57.5px;
+  }
+  
+  .toolset__logo{
+    margin-left:10px;
+    height: 100%;
+    width:80px
+  }

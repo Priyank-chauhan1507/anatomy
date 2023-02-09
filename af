@@ -1,0 +1,560 @@
+[33mcommit a606b6c12729d42915fed849350f84102b701ced[m[33m ([m[1;36mHEAD -> [m[1;32mglobal-store[m[33m)[m
+Author: Siddhant Kushwaha <siddhant.kushwaha@gmail.com>
+Date:   Thu Jun 16 19:57:25 2022 +0530
+
+    Flipped QR and Preview
+
+[33mcommit 3d7aa45e910f8a0fb105b2cbac5acc91187ff64c[m
+Author: Anas <anasnew99@gmail.com>
+Date:   Tue Jun 14 16:50:31 2022 +0530
+
+    Download and Delete images Feature
+
+[33mcommit 2d0c00cebf0d98024c07033c3bc77fdbdb6e6e04[m
+Author: Anas <anasnew99@gmail.com>
+Date:   Tue Jun 14 16:29:24 2022 +0530
+
+    Checkout
+
+[33mcommit d98946ef9514eba031026186f477d8a2ef339ef2[m
+Author: Anas <anasnew99@gmail.com>
+Date:   Tue Jun 14 15:58:28 2022 +0530
+
+    Item Images
+
+[33mcommit b52d6b7f6d80282315a70f0077fd2a495e6c1b08[m
+Author: Anas <anasnew99@gmail.com>
+Date:   Tue Jun 14 14:30:31 2022 +0530
+
+    Item Images Start
+
+[33mcommit 7e56b09752ef19a6aaa6b5f0b3dfe00aab01136b[m
+Author: Anas <anasnew99@gmail.com>
+Date:   Tue Jun 14 08:43:47 2022 +0530
+
+    SVG Drawing Issues
+
+[33mcommit 5363ec2d4407d533b31167594487b89034b8b068[m
+Author: Anas <anasnew99@gmail.com>
+Date:   Mon Jun 13 23:52:15 2022 +0530
+
+    some changes
+
+[33mcommit a77d21fb0824a83f3d2e7a2c036dc7915cace267[m
+Author: Anas <anasnew99@gmail.com>
+Date:   Mon Jun 13 23:51:18 2022 +0530
+
+    some changes
+
+[33mcommit 884442f3dd213deb88fb8ef2fc9c2c30b32d96e5[m
+Merge: 534266b 694e41f
+Author: Anas <anasnew99@gmail.com>
+Date:   Mon Jun 13 22:45:10 2022 +0530
+
+    Merge branch 'global-store' of https://github.com/pugaliapuneet/anatomy-mapper into global-store
+
+[33mcommit 534266bd38cf3512cdc9c12322a464e99c7e2573[m
+Author: Anas <anasnew99@gmail.com>
+Date:   Mon Jun 13 22:45:00 2022 +0530
+
+    SVG Map
+
+[33mcommit 694e41f96aa8022b67c7e79637c59841086ccfd3[m
+Merge: edbcd60 987e842
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon Jun 13 20:17:51 2022 +0530
+
+    Merge branch 'global-store' of https://github.com/pugaliapuneet/anatomy-mapper into global-store
+
+[33mcommit edbcd60a7d980e9ab60e1eaebc1e70321965ec37[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon Jun 13 20:15:28 2022 +0530
+
+    svg iphone bug
+
+[33mcommit e9ad706e84c9cc3d056be4d82d1c1832f8bd838e[m
+Author: Anas <anasnew99@gmail.com>
+Date:   Mon Jun 13 18:58:09 2022 +0530
+
+    Some changes
+
+[33mcommit 987e842dc5c4df86d9c44d6e39c1191c277bd927[m
+Author: Anas <anasnew99@gmail.com>
+Date:   Mon Jun 13 18:54:26 2022 +0530
+
+    Some changes
+
+[33mcommit de96a4610271256bd4f9d264b762c36cf7b5aeea[m
+Author: Anas <anasnew99@gmail.com>
+Date:   Mon Jun 13 18:28:34 2022 +0530
+
+    Notes List item
+
+[33mcommit b82df2d7b7fe7d8ec1dee46f0961f1dbd4c78092[m
+Merge: 7287406 518116d
+Author: unknown <akshayhegde158@gmail.com>
+Date:   Mon Jun 13 17:45:15 2022 +0530
+
+    encounter info
+
+[33mcommit 7287406c84c0bbe0bafd375be2e1d09af57ef10d[m
+Author: unknown <akshayhegde158@gmail.com>
+Date:   Mon Jun 13 17:36:19 2022 +0530
+
+    encounter info
+
+[33mcommit 518116db7a99495ac149c54aa9b11d0bc3ef3355[m
+Merge: fa1c50d c717215
+Author: Anas <anasnew99@gmail.com>
+Date:   Mon Jun 13 17:33:25 2022 +0530
+
+    Merge branch 'global-store' of https://github.com/pugaliapuneet/anatomy-mapper into global-store
+
+[33mcommit fa1c50d300b87c882451b47f3fee6e865d4f0d27[m
+Author: Anas <anasnew99@gmail.com>
+Date:   Mon Jun 13 17:33:12 2022 +0530
+
+    Change of subtype
+
+[33mcommit c7172156eedc77ea2ad119b2141cf65a552cd14b[m
+Merge: 1cccb69 f2137cd
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Mon Jun 13 16:55:00 2022 +0530
+
+    Merge branch 'global-store' of https://github.com/pugaliapuneet/anatomy-mapper into global-store
+
+[33mcommit 1cccb691f9ff8822086a8da52bc54d0328ac0009[m
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Mon Jun 13 16:54:55 2022 +0530
+
+    export pdf tried
+
+[33mcommit f2137cdb9ca50f0e7406cebd4bc7aebd8da06bb3[m
+Merge: d5c2854 f7b677a
+Author: Anas <anasnew99@gmail.com>
+Date:   Mon Jun 13 16:03:22 2022 +0530
+
+    Merge branch 'global-store' of https://github.com/pugaliapuneet/anatomy-mapper into global-store
+
+[33mcommit d5c285449eb9aeb2bae625abcdcc48f49815be83[m
+Author: Anas <anasnew99@gmail.com>
+Date:   Mon Jun 13 16:03:10 2022 +0530
+
+    Adding Pin Previews and QR Code in list item
+
+[33mcommit db5488b47b647337d3c7e334f5af763d785d57ff[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon Jun 13 15:36:29 2022 +0530
+
+    flag
+
+[33mcommit f7b677a1c425bf82546de29281d11932468919e8[m
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Mon Jun 13 11:39:05 2022 +0530
+
+    Proof of concept
+
+[33mcommit 4f538c0665b1797a2cf5d588f39ba1bfb36a2389[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon Jun 13 09:58:26 2022 +0530
+
+    Order Defining
+
+[33mcommit 1371f2c1cf53f7ce7cac9849fe35802602f8b652[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon Jun 13 09:33:35 2022 +0530
+
+    Distribution Items
+
+[33mcommit bc7217b10434b3f75db227c494b9b405e14f7af2[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon Jun 13 09:07:45 2022 +0530
+
+    Distribution Items
+
+[33mcommit 4e195be30c6db51c70a5d8360639a462f239362e[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon Jun 13 08:20:02 2022 +0530
+
+    Some changes
+
+[33mcommit 75b0fa82855b312c0e89e606e4daaf913f881783[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon Jun 13 07:52:00 2022 +0530
+
+    Item Templating
+
+[33mcommit 088cbd06ecdfa80a9a23b0b4bb3dd96dee2cf512[m
+Merge: f29030a 6226d6d
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Fri Jun 10 11:14:09 2022 +0530
+
+    Merge branch 'global-store' of https://github.com/pugaliapuneet/anatomy-mapper into global-store
+
+[33mcommit f29030a1639330b498475993fd9543bbc4c4ad3c[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Fri Jun 10 11:14:04 2022 +0530
+
+    changes
+
+[33mcommit 6226d6d0453f8b6934d63343dbdca592276b02aa[m
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Thu Jun 9 15:55:17 2022 +0530
+
+    dialog created for proof of concept
+
+[33mcommit 9ca6bb54dda6aa0a103600f642bfe336af9726be[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Wed Jun 8 19:49:56 2022 +0530
+
+    scg responsive
+
+[33mcommit 736e5ec3b6f00bb2bf4174599f17e155eec1d487[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Wed Jun 8 19:15:55 2022 +0530
+
+    svg responsive
+
+[33mcommit ee36a5ef63fb48ab6d98a01bf86ebe40a62f032a[m
+Merge: dc14d99 87cbc14
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Wed Jun 8 17:39:58 2022 +0530
+
+    Merge branch 'global-store' of https://github.com/pugaliapuneet/anatomy-mapper into global-store
+
+[33mcommit dc14d99ca77ca40ecea4ada708eba1813f8bffa0[m
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Wed Jun 8 17:39:54 2022 +0530
+
+    Spelling change
+
+[33mcommit 87cbc149a49dd4362440367556e7907b9f83c675[m
+Merge: 7f871b9 ac97764
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Wed Jun 8 16:29:02 2022 +0530
+
+    Merge branch 'global-store' of https://github.com/pugaliapuneet/anatomy-mapper into global-store
+
+[33mcommit ac977649f6226a6d1f2e6dced5b6cb0a5c34e782[m
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Wed Jun 8 16:26:06 2022 +0530
+
+    UI right click context menu
+
+[33mcommit 7f871b9d7a46ddf2843fbf96b20e6fdab35b7431[m
+Merge: ad10129 8f82891
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Wed Jun 8 16:23:43 2022 +0530
+
+    Merge branch 'global-store' of https://github.com/pugaliapuneet/anatomy-mapper into global-store
+
+[33mcommit ad101296aa57c6946e2dc0c4072a8972d7320340[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Wed Jun 8 16:22:26 2022 +0530
+
+    export translated map and relative directory path
+
+[33mcommit 8f82891d46d88786ced99d73f7901fcfd07fdd1d[m
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Wed Jun 8 15:22:09 2022 +0530
+
+    chinese tooltip issue
+
+[33mcommit c5dda99520e174e1fcc195a6f5151f3a06d07c86[m
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Tue Jun 7 13:59:48 2022 +0530
+
+    zIndex issue
+
+[33mcommit f24b4453b46f145943450931a7141af2178be9aa[m
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Mon Jun 6 15:34:15 2022 +0530
+
+    added copy functionality
+
+[33mcommit 53b4593992ea61e7d67754b0743079cacbc9b267[m
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Sat Jun 4 16:43:43 2022 +0530
+
+    print and  copy functionality left
+
+[33mcommit 805bdc9693e57c9604d90ce92025bd9fc8839e03[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Fri Jun 3 18:10:00 2022 +0530
+
+    Readme Updated
+
+[33mcommit 00532fd092033010700b38cd63cc9d130b71babd[m
+Merge: c2467c3 82ee08c
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Fri Jun 3 16:47:27 2022 +0530
+
+    Merge branch 'global-store' of https://github.com/pugaliapuneet/anatomy-mapper into global-store
+
+[33mcommit c2467c34b4fbf2df7c75055e19a7675303d287d5[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Fri Jun 3 16:47:18 2022 +0530
+
+    Some changes
+
+[33mcommit 82ee08c18ef9f6ea89516707f8fbdd8bdf79864c[m
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Fri Jun 3 12:51:13 2022 +0530
+
+    getPinDetails integrated with header
+
+[33mcommit 275afe8a255c8a6bf921baf2be7376d9d397c185[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Fri Jun 3 10:34:49 2022 +0530
+
+    Some changes
+
+[33mcommit 9880edc983693f7e76c38f45cb30cd2963843d27[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Fri Jun 3 10:34:11 2022 +0530
+
+    Some changes
+
+[33mcommit 36530e3c32a75ddc55b6e654c68537647e6b55f4[m
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Thu Jun 2 15:51:07 2022 +0530
+
+    text export task
+
+[33mcommit 28841403182c502e1434880b68e3538c364e0b4b[m
+Merge: a170e03 6721de8
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Thu Jun 2 13:56:30 2022 +0530
+
+    Merge branch 'global-store' of https://github.com/pugaliapuneet/anatomy-mapper into global-store
+
+[33mcommit a170e0313b92ff968e4637715263ffdfe9b2287d[m
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Thu Jun 2 13:56:24 2022 +0530
+
+    right click menu
+
+[33mcommit 6721de88e1ad33cd1f1f98523dac07d36e1bb31a[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Wed Jun 1 16:36:54 2022 +0530
+
+    svg responsive
+
+[33mcommit 2eb935909184cc7b5ed59ae4e337a6c14e73861f[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Tue May 31 23:04:51 2022 +0530
+
+    Some changes
+
+[33mcommit c26da35a555fee97001d957485086ef59f8615c5[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon May 30 21:29:34 2022 +0530
+
+    Some changes
+
+[33mcommit 6d936e06336ab5c94ed937e351c3ebe2f21c6d58[m
+Merge: 343b871 4b6c254
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon May 30 21:17:20 2022 +0530
+
+    Some changes
+
+[33mcommit 4b6c25489c07d9b760dd0f355d6e5d88942141e1[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon May 30 19:25:56 2022 +0530
+
+    header update
+
+[33mcommit 343b8717654c46eac44e3cd869a8966a8583ef71[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon May 30 18:25:25 2022 +0530
+
+    Some changes..
+
+[33mcommit 64e9978940ae2152400d8ae987f137eba85df1b3[m
+Merge: 7f89995 725ca9f
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon May 30 16:19:53 2022 +0530
+
+    Merge branch 'global-store' of https://github.com/pugaliapuneet/anatomy-mapper into global-store
+
+[33mcommit 7f89995d8174180f39c9c5c8ee86aa947a62300e[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon May 30 12:06:43 2022 +0530
+
+    header
+
+[33mcommit 725ca9f54fd0b7ceb14b2aac90113ce5f74a8e70[m
+Author: Aditya <adityaubale63@gmail.com>
+Date:   Mon May 30 11:17:05 2022 +0530
+
+    right context menu site added
+
+[33mcommit 657c26497aa98885fb5d7dfe0a9cba110158a65b[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Sat May 28 08:57:10 2022 +0530
+
+    Some changes related to pin desc
+
+[33mcommit dbcad6a4ff0068df5743a66919cf032c7b314fe2[m
+Merge: 5557c80 31daae4
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Fri May 27 20:20:15 2022 +0530
+
+    Merge branch 'global-store' of https://github.com/pugaliapuneet/anatomy-mapper into global-store
+
+[33mcommit 5557c806f1f2ac5e21b5dbd69c3b514a41a449b0[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Fri May 27 20:19:58 2022 +0530
+
+    navbar
+
+[33mcommit 31daae4d4ecbc618d2514ad9b883ce9b26029578[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Thu May 26 21:25:12 2022 +0530
+
+    Formatting changes
+
+[33mcommit d70a56aef363f0b4008eed45f2e5a61d7a45fd4d[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Thu May 26 20:48:19 2022 +0530
+
+    Some changes
+
+[33mcommit 7e8c26fe309ce4c61846d4b6e8177bb80b5bbb78[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Thu May 26 20:46:21 2022 +0530
+
+    Some changes
+
+[33mcommit 6bc98efb1fe7a0e716b02e759b4d853a40188d5c[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Thu May 26 19:54:08 2022 +0530
+
+    Some changes
+
+[33mcommit 9da9585f78390e1d8d9668b700f485839ceb681c[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Thu May 26 03:55:21 2022 +0530
+
+    Monk Type options
+
+[33mcommit 828079ae496fea06054aebe699353c3afb745af6[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Thu May 26 03:37:09 2022 +0530
+
+    FlitzPark Dropdown
+
+[33mcommit 97edd4bee345e1aef138a27615b05670a5904599[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Thu May 26 03:19:08 2022 +0530
+
+    Some changes
+
+[33mcommit e402d9985b470e230cb3ff8c0010321d81624b68[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Thu May 26 03:09:29 2022 +0530
+
+    Oral Anatomy Visibility and Hide Opposite Gender Anatomy
+
+[33mcommit 2c30fea927be898ec8cadc71396d57fb3cfc462c[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Thu May 26 02:33:45 2022 +0530
+
+    Show patient info on title
+
+[33mcommit 80bdbb35964b7fa8a1c459358645bb271ec05781[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Thu May 26 02:18:01 2022 +0530
+
+    Some fixes regaring ccl and active tools
+
+[33mcommit d16846cad3722161a3fdb85dda3a189e94dc5e71[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Wed May 25 19:00:28 2022 +0530
+
+    Global Store Patient Changes
+
+[33mcommit 3a136ed86b110be0aded00d8c0db204f770653e4[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Wed May 25 15:58:55 2022 +0530
+
+    Fix Width of Active Selection in navbar
+
+[33mcommit 0a5fc55050b1159822df717c0b232e5d6ba5d631[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Wed May 25 15:39:59 2022 +0530
+
+    some changes regarding visual definitions
+
+[33mcommit 09e8d58a3298f6ad4d8fa952be723fe5f0c9aaa2[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon May 23 23:05:00 2022 +0530
+
+    Visual Display of Anatomic Site
+
+[33mcommit 75ec5576533e0dc933c2800c145f02d1c6b9d7c0[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon May 23 20:12:36 2022 +0530
+
+    Some Changes
+
+[33mcommit 53c82ee89a44d98dbc50a2cd9e98094e2dab33b9[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Mon May 23 15:33:03 2022 +0530
+
+    Hierachichal Order Reverse
+
+[33mcommit ffc3c1dc77a59869608dd0dcacac7fa872301476[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Sat May 21 22:09:22 2022 +0530
+
+    Some changes
+
+[33mcommit 83b1d22ab23b1e90ed0761aab281594d7f3db077[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Sat May 21 22:02:13 2022 +0530
+
+    Some changes for rendering pin
+
+[33mcommit 3abbde4f3b9a3918fde1fbd5e107330ad797107d[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Sat May 21 19:59:07 2022 +0530
+
+    Restoring namebuilder
+
+[33mcommit de74f6d0cd17ba2dbb87a45d286ee925097faf39[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Sat May 21 15:29:20 2022 +0530
+
+    Some Changes
+
+[33mcommit f283c060204000675a5cb7230a0c4776ce01f23f[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Fri May 20 22:54:16 2022 +0530
+
+    List Templating
+
+[33mcommit 943765f8f9a590018713e10049920086693ff064[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Thu May 19 23:23:29 2022 +0530
+
+    Some Changes for List Templates
+
+[33mcommit 65e57459c298aa22741768642ceff48ea34246f8[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Wed May 18 22:18:34 2022 +0530
+
+    Some changes
+
+[33mcommit f9f36437926880ead2e01c3521cdb635c3d1eeda[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Wed May 18 17:10:27 2022 +0530
+
+    Pin Rendering on Map Restoration
+
+[33mcommit 1dc747634dacb514365cc2bdbd01c5e5ab2e33f9[m
+Author: Puneet Pugalia <pugaliapuneet@gmail.com>
+Date:   Wed May 18 15:17:50 2022 +0530
+
+    Pin Rendering using redux

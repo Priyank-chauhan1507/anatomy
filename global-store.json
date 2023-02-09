@@ -1,0 +1,3351 @@
+{
+  "listStore": {
+    "isDistributionMode": true,
+    "activeList": "painted_distribution",
+    "listsOrder": [
+      {
+        "listType": "ordered",
+        "listSubtype": null,
+        "id": "ordered"
+      },
+      {
+        "listType": "comments",
+        "listSubtype": null,
+        "id": "comments"
+      },
+      {
+        "listType": "grouped_procedure",
+        "listSubtype": "cryo_ak",
+        "id": "grouped_procedurecryo_ak"
+      },
+      {
+        "listType": "painted_distribution",
+        "listSubtype": "dermatitis_nos",
+        "id": "painted_distributiondermatitis_nos"
+      }
+    ],
+    "globalSNS": {
+      "autoEnhance": true,
+      "autoRelate": true,
+      "snsSequence": "laterality_then_site",
+      "orderList": [
+        {
+          "site_then_laterality": 3,
+          "laterality_then_site": 1,
+          "default_label": "Laterality",
+          "translation_key": "label_SNS_Laterality",
+          "id": "laterality",
+          "pre": "",
+          "post": "",
+          "style": {
+            "textDecoration": "underline",
+            "fontStyle": "italic",
+            "marginRight": 4
+          },
+          "isArray": true,
+          "isEditable": true,
+          "strict": true,
+          "max": 1,
+          "notAllowed": false,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": true,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_Laterality_help"
+          }
+        },
+        {
+          "site_then_laterality": 4,
+          "laterality_then_site": 2,
+          "default_label": "Enhance Modifiers",
+          "translation_key": "label_SNS_EnhancedModifiers",
+          "id": "enhance_modifier",
+          "pre": "(",
+          "post": ")",
+          "style": {
+            "marginRight": 4
+          },
+          "isArray": true,
+          "isEditable": true,
+          "strict": true,
+          "notAllowed": false,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": true,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_EnhancedModifiers_help"
+          }
+        },
+        {
+          "site_then_laterality": 5,
+          "laterality_then_site": 3,
+          "default_label": "Prefixes",
+          "translation_key": "label_SNS_Prefixes",
+          "id": "prefix",
+          "pre": "",
+          "post": "",
+          "style": {
+            "marginRight": 4
+          },
+          "isArray": true,
+          "isEditable": true,
+          "strict": true,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": true,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_Prefixes_help"
+          }
+        },
+        {
+          "site_then_laterality": 1,
+          "laterality_then_site": 4,
+          "default_label": "Anatomic Site Name",
+          "translation_key": "label_SNS_AnatomicSite",
+          "id": "anatomic_site",
+          "style": {
+            "fontWeight": 900,
+            "marginRight": 4
+          },
+          "isArray": false,
+          "pre": "",
+          "post": "",
+          "isEditable": false,
+          "strict": true,
+          "autoCompleteOptions": [],
+          "alwaysSelected": true,
+          "visible": true,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_AnatomicSite_help"
+          }
+        },
+        {
+          "site_then_laterality": 6,
+          "laterality_then_site": 5,
+          "default_label": "Suffixes",
+          "translation_key": "label_SNS_Suffixes",
+          "id": "suffix",
+          "pre": "{",
+          "post": "}",
+          "style": {
+            "marginRight": 4
+          },
+          "isArray": true,
+          "isEditable": true,
+          "strict": true,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": true,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_Suffixes_help"
+          }
+        },
+        {
+          "site_then_laterality": 7,
+          "laterality_then_site": 6,
+          "default_label": "Custom Description",
+          "translation_key": "label_SNS_CustomDescription",
+          "id": "description",
+          "pre": "[",
+          "post": "]",
+          "style": {
+            "marginRight": 4
+          },
+          "isArray": false,
+          "isEditable": true,
+          "strict": false,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": true,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_CustomDescription_help"
+          }
+        },
+        {
+          "site_then_laterality": 8,
+          "laterality_then_site": 7,
+          "default_label": "Auto Related Name",
+          "translation_key": "label_SNS_AutoRelatedSameName",
+          "id": "auto_related_name",
+          "pre": "<",
+          "post": ">",
+          "style": {
+            "marginRight": 4,
+            "color": "#808080"
+          },
+          "isArray": true,
+          "isEditable": false,
+          "strict": false,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": true,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_AutoRelatedSameName_help"
+          }
+        },
+        {
+          "site_then_laterality": 9,
+          "laterality_then_site": 8,
+          "default_label": "ICD Code",
+          "translation_key": "label_SNS_ICDAnatomicSiteCodes",
+          "id": "icd_codes",
+          "pre": "{(",
+          "post": ")}",
+          "style": {
+            "marginRight": 4,
+            "color": "#808080"
+          },
+          "isArray": false,
+          "isEditable": false,
+          "strict": false,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": false,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_ICDAnatomicSiteCodes_help"
+          },
+          "child": {
+            "default_label": "ICD Code child",
+            "translation_key": "label_SNS_ICDAnatomicSiteCodesWithPSE",
+            "id": "icd_codes_child",
+            "style": {
+              "marginRight": 4,
+              "fontSize": "10px",
+              "color": "#808080"
+            },
+            "help": {
+              "default_label": "",
+              "translation_key": "label_SNS_ICDAnatomicSiteCodesWithPSE_help"
+            },
+            "isLabel": true,
+            "visible": false
+          }
+        },
+        {
+          "site_then_laterality": 2,
+          "laterality_then_site": 9,
+          "default_label": "Optional Separator",
+          "translation_key": "label_SNS_OptionalSep",
+          "id": "optional_separator",
+          "pre": "",
+          "post": "",
+          "style": {
+            "marginRight": 4,
+            "color": "#808080"
+          },
+          "isArray": false,
+          "isEditable": true,
+          "strict": true,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": false,
+          "value": ";",
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_OptionalSep_help"
+          }
+        },
+        {
+          "site_then_laterality": 10,
+          "laterality_then_site": 10,
+          "default_label": "Foundation ID Anatomic Site Codes",
+          "translation_key": "label_SNS_FoundationIDs",
+          "id": "foundation_id",
+          "pre": "{#",
+          "post": "#}",
+          "style": {
+            "marginRight": 4,
+            "color": "#808080"
+          },
+          "isArray": false,
+          "isEditable": false,
+          "strict": false,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": false,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_FoundationIDs_help"
+          },
+          "child": {
+            "default_label": "Foundation ID child",
+            "translation_key": "label_SNS_FoundationIDsWithPSE",
+            "id": "foundation_id_child",
+            "style": {
+              "marginRight": 4,
+              "fontSize": "10px",
+              "color": "#808080"
+            },
+            "help": {
+              "default_label": "",
+              "translation_key": "label_SNS_FoundationIDsWithPSE_help"
+            },
+            "isLabel": true,
+            "visible": false
+          }
+        },
+        {
+          "site_then_laterality": 11,
+          "laterality_then_site": 11,
+          "default_label": "AMID",
+          "translation_key": "label_SNS_AMIDs",
+          "id": "anatomy_mapper_id",
+          "pre": "<<",
+          "post": ">>",
+          "style": {
+            "marginRight": 4,
+            "color": "#808080"
+          },
+          "isArray": false,
+          "isEditable": false,
+          "strict": false,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": false,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_AMIDs_help"
+          },
+          "child": {
+            "default_label": "AMID child",
+            "translation_key": "label_SNS_AMIDsWithPSE",
+            "id": "anatomy_mapper_id_child",
+            "style": {
+              "marginRight": 4,
+              "fontSize": "10px",
+              "color": "#808080"
+            },
+            "help": {
+              "default_label": "",
+              "translation_key": "label_SNS_AMIDsWithPSE_help"
+            },
+            "isLabel": true,
+            "visible": false
+          }
+        },
+        {
+          "site_then_laterality": 12,
+          "laterality_then_site": 12,
+          "default_label": "Emoji Group",
+          "translation_key": "label_SNS_EmojiGroup",
+          "id": "name_emoji_grp",
+          "pre": "~",
+          "post": "~",
+          "style": {
+            "marginRight": 4,
+            "color": "#808080"
+          },
+          "isArray": false,
+          "isEditable": false,
+          "strict": false,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": false,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_EmojiGroup_help"
+          }
+        }
+      ]
+    },
+    "distributionSNS": {
+      "autoEnhance": true,
+      "autoRelate": true,
+      "snsSequence": "laterality_then_site",
+      "orderList": [
+        {
+          "site_then_laterality": 3,
+          "laterality_then_site": 1,
+          "default_label": "Laterality",
+          "translation_key": "label_SNS_Laterality",
+          "id": "laterality",
+          "pre": "",
+          "post": "",
+          "style": {
+            "textDecoration": "underline",
+            "fontStyle": "italic",
+            "marginRight": 4
+          },
+          "isArray": true,
+          "isEditable": true,
+          "strict": true,
+          "max": 1,
+          "notAllowed": false,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": true,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_Laterality_help"
+          }
+        },
+        {
+          "site_then_laterality": 5,
+          "laterality_then_site": 3,
+          "default_label": "Prefixes",
+          "translation_key": "label_SNS_Prefixes",
+          "id": "prefix",
+          "pre": "",
+          "post": "",
+          "style": {
+            "marginRight": 4
+          },
+          "isArray": true,
+          "isEditable": true,
+          "strict": true,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": true,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_Prefixes_help"
+          }
+        },
+        {
+          "site_then_laterality": 1,
+          "laterality_then_site": 4,
+          "default_label": "Anatomic Site Name",
+          "translation_key": "label_SNS_AnatomicSite",
+          "id": "anatomic_site",
+          "style": {
+            "fontWeight": 900,
+            "marginRight": 4
+          },
+          "isArray": false,
+          "pre": "",
+          "post": "",
+          "isEditable": false,
+          "strict": true,
+          "autoCompleteOptions": [],
+          "alwaysSelected": true,
+          "visible": true,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_AnatomicSite_help"
+          }
+        },
+        {
+          "site_then_laterality": 6,
+          "laterality_then_site": 5,
+          "default_label": "Suffixes",
+          "translation_key": "label_SNS_Suffixes",
+          "id": "suffix",
+          "pre": "{",
+          "post": "}",
+          "style": {
+            "marginRight": 4
+          },
+          "isArray": true,
+          "isEditable": true,
+          "strict": true,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": true,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_Suffixes_help"
+          }
+        },
+        {
+          "site_then_laterality": 7,
+          "laterality_then_site": 6,
+          "default_label": "Custom Description",
+          "translation_key": "label_SNS_CustomDescription",
+          "id": "description",
+          "pre": "[",
+          "post": "]",
+          "style": {
+            "marginRight": 4
+          },
+          "isArray": false,
+          "isEditable": true,
+          "strict": false,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": true,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_CustomDescription_help"
+          }
+        },
+        {
+          "site_then_laterality": 9,
+          "laterality_then_site": 8,
+          "default_label": "ICD Code",
+          "translation_key": "label_SNS_ICDAnatomicSiteCodes",
+          "id": "icd_codes",
+          "pre": "{(",
+          "post": ")}",
+          "style": {
+            "marginRight": 4,
+            "color": "#808080"
+          },
+          "isArray": false,
+          "isEditable": false,
+          "strict": false,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": false,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_ICDAnatomicSiteCodes_help"
+          },
+          "child": {
+            "default_label": "ICD Code child",
+            "translation_key": "label_SNS_ICDAnatomicSiteCodesWithPSE",
+            "id": "icd_codes_child",
+            "style": {
+              "marginRight": 4,
+              "fontSize": "10px",
+              "color": "#808080"
+            },
+            "help": {
+              "default_label": "",
+              "translation_key": "label_SNS_ICDAnatomicSiteCodesWithPSE_help"
+            },
+            "isLabel": true,
+            "visible": false
+          }
+        },
+        {
+          "site_then_laterality": 2,
+          "laterality_then_site": 9,
+          "default_label": "Optional Separator",
+          "translation_key": "label_SNS_OptionalSep",
+          "id": "optional_separator",
+          "pre": "",
+          "post": "",
+          "style": {
+            "marginRight": 4,
+            "color": "#808080"
+          },
+          "isArray": false,
+          "isEditable": true,
+          "strict": true,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": false,
+          "value": ";",
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_OptionalSep_help"
+          }
+        },
+        {
+          "site_then_laterality": 10,
+          "laterality_then_site": 10,
+          "default_label": "Foundation ID Anatomic Site Codes",
+          "translation_key": "label_SNS_FoundationIDs",
+          "id": "foundation_id",
+          "pre": "{#",
+          "post": "#}",
+          "style": {
+            "marginRight": 4,
+            "color": "#808080"
+          },
+          "isArray": false,
+          "isEditable": false,
+          "strict": false,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": false,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_FoundationIDs_help"
+          },
+          "child": {
+            "default_label": "Foundation ID child",
+            "translation_key": "label_SNS_FoundationIDsWithPSE",
+            "id": "foundation_id_child",
+            "style": {
+              "marginRight": 4,
+              "fontSize": "10px",
+              "color": "#808080"
+            },
+            "help": {
+              "default_label": "",
+              "translation_key": "label_SNS_FoundationIDsWithPSE_help"
+            },
+            "isLabel": true,
+            "visible": false
+          }
+        },
+        {
+          "site_then_laterality": 11,
+          "laterality_then_site": 11,
+          "default_label": "AMID",
+          "translation_key": "label_SNS_AMIDs",
+          "id": "anatomy_mapper_id",
+          "pre": "<<",
+          "post": ">>",
+          "style": {
+            "marginRight": 4,
+            "color": "#808080"
+          },
+          "isArray": false,
+          "isEditable": false,
+          "strict": false,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": false,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_AMIDs_help"
+          },
+          "child": {
+            "default_label": "AMID child",
+            "translation_key": "label_SNS_AMIDsWithPSE",
+            "id": "anatomy_mapper_id_child",
+            "style": {
+              "marginRight": 4,
+              "fontSize": "10px",
+              "color": "#808080"
+            },
+            "help": {
+              "default_label": "",
+              "translation_key": "label_SNS_AMIDsWithPSE_help"
+            },
+            "isLabel": true,
+            "visible": false
+          }
+        },
+        {
+          "site_then_laterality": 12,
+          "laterality_then_site": 12,
+          "default_label": "Emoji Group",
+          "translation_key": "label_SNS_EmojiGroup",
+          "id": "name_emoji_grp",
+          "pre": "~",
+          "post": "~",
+          "style": {
+            "marginRight": 4,
+            "color": "#808080"
+          },
+          "isArray": false,
+          "isEditable": false,
+          "strict": false,
+          "autoCompleteOptions": [],
+          "alwaysSelected": false,
+          "visible": false,
+          "help": {
+            "default_label": "",
+            "translation_key": "label_SNS_EmojiGroup_help"
+          }
+        }
+      ]
+    },
+    "ar_name_updated_at": "11 22 35",
+    "customSNS": {},
+    "itemsMap": {
+      "833049ff-d388-43b4-b88e-26ffaa1dfa9a": {
+        "id": "833049ff-d388-43b4-b88e-26ffaa1dfa9a",
+        "listType": "ordered",
+        "listSubtype": "shave_biopsy",
+        "isFirstDescriptionEdited": false,
+        "coords": {
+          "absCoords": {
+            "x": 1061,
+            "y": 138
+          },
+          "svgCoords": {
+            "x": 2425.7314453125,
+            "y": 167.9856414794922
+          }
+        },
+        "subType": "shave_biopsy",
+        "pathId": "285-R.--data-egzt:5",
+        "names": {
+          "lateralityCodes": ["right"],
+          "laterality": ["right"],
+          "amid": 285,
+          "prefix": [],
+          "suffix": [],
+          "enhance_modifier": [13],
+          "foundation_id": "",
+          "anatomy_mapper_id": "",
+          "name_emoji_grp": "",
+          "description": "",
+          "distribution": "",
+          "auto_related_name": [],
+          "anatomic_site": "285-R.",
+          "icd_codes": "",
+          "optional_separator": ";"
+        },
+        "layerInfo": {
+          "HMAP_ID": "HMAP-Right_Dorsal_Hand",
+          "D_ID": "D-Right_Dorsal_Hand",
+          "G_IDs": ["G-Dorsal_Hands", "G-Hands"],
+          "HG_IDs": ["HG-Dorsal_Hands", "HG-Hands"]
+        },
+        "egz": {
+          "egz": {
+            "egzt": 5,
+            "egzx": 50,
+            "egzy": 50
+          },
+          "deviation": {
+            "dev_x": -55.24559824752256,
+            "dev_y": 27.50806648502205,
+            "enhanceModX": 13,
+            "enhanceModY": null
+          },
+          "amid": 285,
+          "side": "R",
+          "level": null
+        },
+        "itemType": "pin",
+        "hierarchy": [
+          {
+            "pathId": "284-R.--data-pre1:10",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": 50,
+                "egzy": 50
+              },
+              "deviation": {
+                "dev_x": -56.925509546713755,
+                "dev_y": 62.17509363384684,
+                "enhanceModX": null,
+                "enhanceModY": null
+              },
+              "amid": 284,
+              "side": "R",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["right"],
+              "laterality": ["right"],
+              "amid": 284,
+              "prefix": [10],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "284-R.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Right_Dorsal_Hand",
+              "D_ID": "D-Right_Dorsal_Hand",
+              "G_IDs": ["G-Dorsal_Hands", "G-Hands"],
+              "HG_IDs": ["HG-Dorsal_Hands", "HG-Hands"]
+            }
+          },
+          {
+            "pathId": "255-R.--data-pre1:8",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": 50,
+                "egzy": 50
+              },
+              "deviation": {
+                "dev_x": -56.901061044752474,
+                "dev_y": 51.16053178094288,
+                "enhanceModX": null,
+                "enhanceModY": null
+              },
+              "amid": 255,
+              "side": "R",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["right"],
+              "laterality": ["right"],
+              "amid": 255,
+              "prefix": [8],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "255-R.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Right_Dorsal_Hand",
+              "D_ID": "D-Right_Dorsal_Hand",
+              "G_IDs": ["G-Dorsal_Hands", "G-Hands"],
+              "HG_IDs": ["HG-Dorsal_Hands", "HG-Hands"]
+            }
+          }
+        ],
+        "descriptions": ["Shave biopsy", "", ""],
+        "links": [],
+        "pinDescriptionVisibility": true,
+        "files": [],
+        "morphologies": [],
+        "diagnoses": [
+          {
+            "icd": "2F72.Y",
+            "foundation": "",
+            "eC": "",
+            "sI": "",
+            "pM": "",
+            "exts": []
+          }
+        ],
+        "notes": ""
+      },
+      "9277ffb2-bdc3-4084-818b-3cc6565e8eb6": {
+        "id": "9277ffb2-bdc3-4084-818b-3cc6565e8eb6",
+        "listType": "ordered",
+        "listSubtype": "shave_biopsy",
+        "isFirstDescriptionEdited": false,
+        "coords": {
+          "absCoords": {
+            "x": 932,
+            "y": 180
+          },
+          "svgCoords": {
+            "x": 2077.930908203125,
+            "y": 281.2230224609375
+          }
+        },
+        "subType": "shave_biopsy",
+        "pathId": "6-L.-3",
+        "names": {
+          "lateralityCodes": ["left"],
+          "laterality": ["left"],
+          "amid": 6,
+          "prefix": [],
+          "suffix": [],
+          "enhance_modifier": [],
+          "foundation_id": "",
+          "anatomy_mapper_id": "",
+          "name_emoji_grp": "",
+          "description": "",
+          "distribution": "",
+          "auto_related_name": [],
+          "anatomic_site": "6-L.",
+          "icd_codes": "",
+          "optional_separator": ";"
+        },
+        "layerInfo": {
+          "HMAP_ID": "HMAP-Left_Posterior_Head_and_Neck",
+          "D_ID": "D-Left_Posterior_Head_and_Neck",
+          "G_IDs": ["G-Head_and_Neck"],
+          "HG_IDs": ["HG-Head_and_Neck"]
+        },
+        "egz": {
+          "egz": {
+            "egzt": null,
+            "egzx": null,
+            "egzy": null
+          },
+          "deviation": {
+            "dev_x": -25.19563708018117,
+            "dev_y": -53.04615260470781
+          },
+          "amid": 6,
+          "side": "L",
+          "level": null
+        },
+        "itemType": "pin",
+        "hierarchy": [],
+        "descriptions": ["Shave biopsy", "", ""],
+        "links": [],
+        "pinDescriptionVisibility": true,
+        "files": [],
+        "morphologies": [],
+        "diagnoses": [
+          {
+            "icd": "2F72.Y",
+            "foundation": "",
+            "eC": "",
+            "sI": "",
+            "pM": "",
+            "exts": []
+          }
+        ],
+        "notes": ""
+      },
+      "514dcf8d-21e9-45e8-93af-a74fef69fe47": {
+        "id": "514dcf8d-21e9-45e8-93af-a74fef69fe47",
+        "listType": "ordered",
+        "listSubtype": "shave_biopsy",
+        "isFirstDescriptionEdited": false,
+        "coords": {
+          "absCoords": {
+            "x": 773,
+            "y": 167
+          },
+          "svgCoords": {
+            "x": 1649.2464599609375,
+            "y": 246.17337036132812
+          }
+        },
+        "subType": "shave_biopsy",
+        "pathId": "43-L.--data-egzt:10--data-egzx:70",
+        "names": {
+          "lateralityCodes": ["left"],
+          "laterality": ["left"],
+          "amid": 43,
+          "prefix": [],
+          "suffix": [],
+          "enhance_modifier": [],
+          "foundation_id": "",
+          "anatomy_mapper_id": "",
+          "name_emoji_grp": "",
+          "description": "",
+          "distribution": "",
+          "auto_related_name": [],
+          "anatomic_site": "43-L.",
+          "icd_codes": "",
+          "optional_separator": ";"
+        },
+        "layerInfo": {
+          "HMAP_ID": "HMAP-Left_Oblique_Head_and_Neck",
+          "D_ID": "D-Left_Oblique_Head_and_Neck",
+          "G_IDs": ["G-Head_and_Neck"],
+          "HG_IDs": ["HG-Head_and_Neck"]
+        },
+        "egz": {
+          "egz": {
+            "egzt": 10,
+            "egzx": 70,
+            "egzy": 50
+          },
+          "deviation": {
+            "dev_x": 28.849309082437884,
+            "dev_y": 13.920433782303627,
+            "enhanceModX": null,
+            "enhanceModY": null
+          },
+          "amid": 43,
+          "side": "L",
+          "level": null
+        },
+        "itemType": "pin",
+        "hierarchy": [
+          {
+            "pathId": "37-L.-2",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": 69.58901219832087,
+                "dev_y": 36.22595854922869
+              },
+              "amid": 37,
+              "side": "L",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["left"],
+              "laterality": ["left"],
+              "amid": 37,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "37-L.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Oblique_Head_and_Neck",
+              "D_ID": "D-Left_Oblique_Head_and_Neck",
+              "G_IDs": ["G-Head_and_Neck"],
+              "HG_IDs": ["HG-Head_and_Neck"]
+            }
+          },
+          {
+            "pathId": "2.",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": 38.50139630898558,
+                "dev_y": 26.72886281703248
+              },
+              "amid": 2,
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": [],
+              "laterality": [],
+              "amid": 2,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "2.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Oblique_Head_and_Neck",
+              "D_ID": "D-Left_Oblique_Head_and_Neck",
+              "G_IDs": ["G-Head_and_Neck"],
+              "HG_IDs": ["HG-Head_and_Neck"]
+            }
+          },
+          {
+            "pathId": "1.-2",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": 38.50490596888496,
+                "dev_y": 41.74312852896049
+              },
+              "amid": 1,
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": [],
+              "laterality": [],
+              "amid": 1,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "1.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Oblique_Head_and_Neck",
+              "D_ID": "D-Left_Oblique_Head_and_Neck",
+              "G_IDs": ["G-Head_and_Neck"],
+              "HG_IDs": ["HG-Head_and_Neck"]
+            }
+          }
+        ],
+        "descriptions": ["Shave biopsy", "", ""],
+        "links": [],
+        "pinDescriptionVisibility": true,
+        "files": [],
+        "morphologies": [],
+        "diagnoses": [
+          {
+            "icd": "2F72.Y",
+            "foundation": "",
+            "eC": "",
+            "sI": "",
+            "pM": "",
+            "exts": []
+          }
+        ],
+        "notes": ""
+      },
+      "c3ebffb2-2c5a-48c8-8a74-2d9ad366a0d9": {
+        "id": "c3ebffb2-2c5a-48c8-8a74-2d9ad366a0d9",
+        "listType": "ordered",
+        "listSubtype": "shave_biopsy",
+        "isFirstDescriptionEdited": false,
+        "coords": {
+          "absCoords": {
+            "x": 583,
+            "y": 132
+          },
+          "svgCoords": {
+            "x": 1136.9820556640625,
+            "y": 151.8088836669922
+          }
+        },
+        "subType": "shave_biopsy",
+        "pathId": "39-L.--data-egzt:1-2",
+        "names": {
+          "lateralityCodes": ["left"],
+          "laterality": ["left"],
+          "amid": 39,
+          "prefix": [],
+          "suffix": [],
+          "enhance_modifier": [],
+          "foundation_id": "",
+          "anatomy_mapper_id": "",
+          "name_emoji_grp": "",
+          "description": "",
+          "distribution": "",
+          "auto_related_name": [],
+          "anatomic_site": "39-L.",
+          "icd_codes": "",
+          "optional_separator": ";"
+        },
+        "layerInfo": {
+          "HMAP_ID": "HMAP-Anterior_Head_and_Neck",
+          "D_ID": "D-Anterior_Head_and_Neck",
+          "G_IDs": ["G-Head_and_Neck"],
+          "HG_IDs": ["HG-Head_and_Neck"]
+        },
+        "egz": {
+          "egz": {
+            "egzt": 1,
+            "egzx": 50,
+            "egzy": 50
+          },
+          "deviation": {
+            "dev_x": 29.516797049888588,
+            "dev_y": -15.531223582376164,
+            "enhanceModX": null,
+            "enhanceModY": null
+          },
+          "amid": 39,
+          "side": "L",
+          "level": null
+        },
+        "itemType": "pin",
+        "hierarchy": [
+          {
+            "pathId": "39.--data-egzt:3-2",
+            "egz": {
+              "egz": {
+                "egzt": 3,
+                "egzx": 50,
+                "egzy": 50
+              },
+              "deviation": {
+                "dev_x": 64.76289316664501,
+                "dev_y": -15.531223582376164,
+                "enhanceModX": 46,
+                "enhanceModY": null
+              },
+              "amid": 39,
+              "side": "",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": [],
+              "laterality": [],
+              "amid": 39,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [46],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "39.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Anterior_Head_and_Neck",
+              "D_ID": "D-Anterior_Head_and_Neck",
+              "G_IDs": ["G-Head_and_Neck"],
+              "HG_IDs": ["HG-Head_and_Neck"]
+            }
+          },
+          {
+            "pathId": "38.-3",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": 15.420625466737539,
+                "dev_y": 19.29935492955725
+              },
+              "amid": 38,
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": [],
+              "laterality": [],
+              "amid": 38,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "38.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Anterior_Head_and_Neck",
+              "D_ID": "D-Anterior_Head_and_Neck",
+              "G_IDs": ["G-Head_and_Neck"],
+              "HG_IDs": ["HG-Head_and_Neck"]
+            }
+          },
+          {
+            "pathId": "37.-3",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": 14.464822176569461,
+                "dev_y": 67.91759179669428
+              },
+              "amid": 37,
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": [],
+              "laterality": [],
+              "amid": 37,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "37.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Anterior_Head_and_Neck",
+              "D_ID": "D-Anterior_Head_and_Neck",
+              "G_IDs": ["G-Head_and_Neck"],
+              "HG_IDs": ["HG-Head_and_Neck"]
+            }
+          },
+          {
+            "pathId": "2.-2",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": 11.49997118258853,
+                "dev_y": 52.578309142998606
+              },
+              "amid": 2,
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": [],
+              "laterality": [],
+              "amid": 2,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "2.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Anterior_Head_and_Neck",
+              "D_ID": "D-Anterior_Head_and_Neck",
+              "G_IDs": ["G-Head_and_Neck"],
+              "HG_IDs": ["HG-Head_and_Neck"]
+            }
+          },
+          {
+            "pathId": "1.-3",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": 11.492127868763369,
+                "dev_y": 57.36057863255265
+              },
+              "amid": 1,
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": [],
+              "laterality": [],
+              "amid": 1,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "1.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Anterior_Head_and_Neck",
+              "D_ID": "D-Anterior_Head_and_Neck",
+              "G_IDs": ["G-Head_and_Neck"],
+              "HG_IDs": ["HG-Head_and_Neck"]
+            }
+          }
+        ],
+        "descriptions": ["Shave biopsy", "", ""],
+        "links": [],
+        "pinDescriptionVisibility": true,
+        "files": [],
+        "morphologies": [],
+        "diagnoses": [
+          {
+            "icd": "2F72.Y",
+            "foundation": "",
+            "eC": "",
+            "sI": "",
+            "pM": "",
+            "exts": []
+          }
+        ],
+        "notes": ""
+      },
+      "388b75e0-cadb-4fd9-95f7-30b752b8330f": {
+        "id": "388b75e0-cadb-4fd9-95f7-30b752b8330f",
+        "listType": "ordered",
+        "listSubtype": "shave_biopsy",
+        "isFirstDescriptionEdited": false,
+        "coords": {
+          "absCoords": {
+            "x": 1220,
+            "y": 140
+          },
+          "svgCoords": {
+            "x": 2854.415771484375,
+            "y": 173.37789916992188
+          }
+        },
+        "subType": "shave_biopsy",
+        "pathId": "285-L.--data-egzt:4",
+        "names": {
+          "lateralityCodes": ["left"],
+          "laterality": ["left"],
+          "amid": 285,
+          "prefix": [],
+          "suffix": [],
+          "enhance_modifier": [],
+          "foundation_id": "",
+          "anatomy_mapper_id": "",
+          "name_emoji_grp": "",
+          "description": "",
+          "distribution": "",
+          "auto_related_name": [],
+          "anatomic_site": "285-L.",
+          "icd_codes": "",
+          "optional_separator": ";"
+        },
+        "layerInfo": {
+          "HMAP_ID": "HMAP-Left_Dorsal_Hand",
+          "D_ID": "D-Left_Dorsal_Hand",
+          "G_IDs": ["G-Dorsal_Hands", "G-Hands"],
+          "HG_IDs": ["HG-Dorsal_Hands", "HG-Hands"]
+        },
+        "egz": {
+          "egz": {
+            "egzt": 4,
+            "egzx": 50,
+            "egzy": 50
+          },
+          "deviation": {
+            "dev_x": -32.93072957702797,
+            "dev_y": 24.1553435065222,
+            "enhanceModX": null,
+            "enhanceModY": null
+          },
+          "amid": 285,
+          "side": "L",
+          "level": null
+        },
+        "itemType": "pin",
+        "hierarchy": [
+          {
+            "pathId": "284-L.--data-pre1:10",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": 50,
+                "egzy": 50
+              },
+              "deviation": {
+                "dev_x": -14.216413243292756,
+                "dev_y": 60.428394066624385,
+                "enhanceModX": null,
+                "enhanceModY": null
+              },
+              "amid": 284,
+              "side": "L",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["left"],
+              "laterality": ["left"],
+              "amid": 284,
+              "prefix": [10],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "284-L.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Dorsal_Hand",
+              "D_ID": "D-Left_Dorsal_Hand",
+              "G_IDs": ["G-Dorsal_Hands", "G-Hands"],
+              "HG_IDs": ["HG-Dorsal_Hands", "HG-Hands"]
+            }
+          },
+          {
+            "pathId": "255-L.--data-pre1:8",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": 50,
+                "egzy": 50
+              },
+              "deviation": {
+                "dev_x": -14.189392915046522,
+                "dev_y": 49.53164618627191,
+                "enhanceModX": null,
+                "enhanceModY": null
+              },
+              "amid": 255,
+              "side": "L",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["left"],
+              "laterality": ["left"],
+              "amid": 255,
+              "prefix": [8],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "255-L.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Dorsal_Hand",
+              "D_ID": "D-Left_Dorsal_Hand",
+              "G_IDs": ["G-Dorsal_Hands", "G-Hands"],
+              "HG_IDs": ["HG-Dorsal_Hands", "HG-Hands"]
+            }
+          }
+        ],
+        "descriptions": ["Shave biopsy", "", ""],
+        "links": [],
+        "pinDescriptionVisibility": true,
+        "files": [],
+        "morphologies": [],
+        "diagnoses": [
+          {
+            "icd": "2F72.Y",
+            "foundation": "",
+            "eC": "",
+            "sI": "",
+            "pM": "",
+            "exts": []
+          }
+        ],
+        "notes": ""
+      },
+      "e51146a2-029b-44ec-908c-fad419e2e63f": {
+        "id": "e51146a2-029b-44ec-908c-fad419e2e63f",
+        "listType": "ordered",
+        "listSubtype": "shave_biopsy",
+        "isFirstDescriptionEdited": false,
+        "coords": {
+          "absCoords": {
+            "x": 1219,
+            "y": 362
+          },
+          "svgCoords": {
+            "x": 2851.7197265625,
+            "y": 771.9183959960938
+          }
+        },
+        "subType": "shave_biopsy",
+        "pathId": "300-L.--data-egzt:4--data-egzx:100",
+        "names": {
+          "lateralityCodes": ["left"],
+          "laterality": ["left"],
+          "amid": 300,
+          "prefix": [],
+          "suffix": [],
+          "enhance_modifier": [],
+          "foundation_id": "",
+          "anatomy_mapper_id": "",
+          "name_emoji_grp": "",
+          "description": "",
+          "distribution": "",
+          "auto_related_name": [],
+          "anatomic_site": "300-L.",
+          "icd_codes": "",
+          "optional_separator": ";"
+        },
+        "layerInfo": {
+          "HMAP_ID": "HMAP-Left_Palm",
+          "D_ID": "D-Left_Palm",
+          "G_IDs": ["G-Palmar_Hands", "G-Hands"],
+          "HG_IDs": ["HG-Palmar_Hands", "HG-Hands"]
+        },
+        "egz": {
+          "egz": {
+            "egzt": 4,
+            "egzx": 100,
+            "egzy": 50
+          },
+          "deviation": {
+            "dev_x": 1.9365138982278916,
+            "dev_y": -37.278199586846895,
+            "enhanceModX": null,
+            "enhanceModY": null
+          },
+          "amid": 300,
+          "side": "L",
+          "level": null
+        },
+        "itemType": "pin",
+        "hierarchy": [
+          {
+            "pathId": "298-L.--data-egzt:4--data-egzy:100",
+            "egz": {
+              "egz": {
+                "egzt": 4,
+                "egzx": 50,
+                "egzy": 100
+              },
+              "deviation": {
+                "dev_x": -52.274946171526665,
+                "dev_y": -20.38051794124849,
+                "enhanceModX": 14,
+                "enhanceModY": null
+              },
+              "amid": 298,
+              "side": "L",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["left"],
+              "laterality": ["left"],
+              "amid": 298,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [14],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "298-L.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Palm",
+              "D_ID": "D-Left_Palm",
+              "G_IDs": ["G-Palmar_Hands", "G-Hands"],
+              "HG_IDs": ["HG-Palmar_Hands", "HG-Hands"]
+            }
+          },
+          {
+            "pathId": "297-L.",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": -50.07894702415353,
+                "dev_y": 18.64238460271455
+              },
+              "amid": 297,
+              "side": "L",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["left"],
+              "laterality": ["left"],
+              "amid": 297,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "297-L.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Palm",
+              "D_ID": "D-Left_Palm",
+              "G_IDs": ["G-Palmar_Hands", "G-Hands"],
+              "HG_IDs": ["HG-Palmar_Hands", "HG-Hands"]
+            }
+          },
+          {
+            "pathId": "284-L.--data-pre1:17",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": 50,
+                "egzy": 50
+              },
+              "deviation": {
+                "dev_x": -56.460955987828655,
+                "dev_y": 53.8730257263676,
+                "enhanceModX": null,
+                "enhanceModY": null
+              },
+              "amid": 284,
+              "side": "L",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["left"],
+              "laterality": ["left"],
+              "amid": 284,
+              "prefix": [17],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "284-L.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Palm",
+              "D_ID": "D-Left_Palm",
+              "G_IDs": ["G-Palmar_Hands", "G-Hands"],
+              "HG_IDs": ["HG-Palmar_Hands", "HG-Hands"]
+            }
+          },
+          {
+            "pathId": "255-L.",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": -56.460955987828655,
+                "dev_y": 44.83960009760186
+              },
+              "amid": 255,
+              "side": "L",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["left"],
+              "laterality": ["left"],
+              "amid": 255,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "255-L.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Palm",
+              "D_ID": "D-Left_Palm",
+              "G_IDs": ["G-Palmar_Hands", "G-Hands"],
+              "HG_IDs": ["HG-Palmar_Hands", "HG-Hands"]
+            }
+          }
+        ],
+        "descriptions": ["Shave biopsy", "", ""],
+        "links": [],
+        "pinDescriptionVisibility": true,
+        "files": [],
+        "morphologies": [],
+        "diagnoses": [
+          {
+            "icd": "2F72.Y",
+            "foundation": "",
+            "eC": "",
+            "sI": "",
+            "pM": "",
+            "exts": []
+          }
+        ],
+        "notes": ""
+      },
+      "b406688b-407f-4aff-97fc-2af3b0b2226b": {
+        "id": "b406688b-407f-4aff-97fc-2af3b0b2226b",
+        "listType": "comments",
+        "listSubtype": "general_comment",
+        "isFirstDescriptionEdited": false,
+        "coords": {
+          "absCoords": {
+            "x": 743,
+            "y": 203
+          },
+          "svgCoords": {
+            "x": 1568.362548828125,
+            "y": 343.2339782714844
+          }
+        },
+        "subType": "general_comment",
+        "pathId": "70-L.--data-egzt:1--data-egzy:25",
+        "names": {
+          "lateralityCodes": ["left"],
+          "laterality": ["left"],
+          "amid": 70,
+          "prefix": [],
+          "suffix": [],
+          "enhance_modifier": [16],
+          "foundation_id": "",
+          "anatomy_mapper_id": "",
+          "name_emoji_grp": "",
+          "description": "",
+          "distribution": "",
+          "auto_related_name": [],
+          "anatomic_site": "70-L.",
+          "icd_codes": "",
+          "optional_separator": ";"
+        },
+        "layerInfo": {
+          "HMAP_ID": "HMAP-Left_Oblique_Head_and_Neck",
+          "D_ID": "D-Left_Oblique_Head_and_Neck",
+          "G_IDs": ["G-Head_and_Neck"],
+          "HG_IDs": ["HG-Head_and_Neck"]
+        },
+        "egz": {
+          "egz": {
+            "egzt": 1,
+            "egzx": 50,
+            "egzy": 25
+          },
+          "deviation": {
+            "dev_x": -20.641885985367452,
+            "dev_y": -80.04514083994312,
+            "enhanceModX": null,
+            "enhanceModY": 16
+          },
+          "amid": 70,
+          "side": "L",
+          "level": null
+        },
+        "itemType": "pin",
+        "hierarchy": [
+          {
+            "pathId": "69-L.--data-egzt:1",
+            "egz": {
+              "egz": {
+                "egzt": 1,
+                "egzx": 50,
+                "egzy": 50
+              },
+              "deviation": {
+                "dev_x": -8.979689323293853,
+                "dev_y": -80.80147413366166,
+                "enhanceModX": null,
+                "enhanceModY": 16
+              },
+              "amid": 69,
+              "side": "L",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["left"],
+              "laterality": ["left"],
+              "amid": 69,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [16],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "69-L.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Oblique_Head_and_Neck",
+              "D_ID": "D-Left_Oblique_Head_and_Neck",
+              "G_IDs": ["G-Head_and_Neck"],
+              "HG_IDs": ["HG-Head_and_Neck"]
+            }
+          },
+          {
+            "pathId": "68-L.--data-egzt:1-2",
+            "egz": {
+              "egz": {
+                "egzt": 1,
+                "egzx": 50,
+                "egzy": 50
+              },
+              "deviation": {
+                "dev_x": 0.44317847788953657,
+                "dev_y": 27.248627462667468,
+                "enhanceModX": null,
+                "enhanceModY": null
+              },
+              "amid": 68,
+              "side": "L",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["left"],
+              "laterality": ["left"],
+              "amid": 68,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "68-L.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Oblique_Head_and_Neck",
+              "D_ID": "D-Left_Oblique_Head_and_Neck",
+              "G_IDs": ["G-Head_and_Neck"],
+              "HG_IDs": ["HG-Head_and_Neck"]
+            }
+          },
+          {
+            "pathId": "37-L.-2",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": 17.939072627079362,
+                "dev_y": -17.458100002514346
+              },
+              "amid": 37,
+              "side": "L",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["left"],
+              "laterality": ["left"],
+              "amid": 37,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "37-L.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Oblique_Head_and_Neck",
+              "D_ID": "D-Left_Oblique_Head_and_Neck",
+              "G_IDs": ["G-Head_and_Neck"],
+              "HG_IDs": ["HG-Head_and_Neck"]
+            }
+          },
+          {
+            "pathId": "2.",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": -3.718683976767875,
+                "dev_y": -23.204484844675235
+              },
+              "amid": 2,
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": [],
+              "laterality": [],
+              "amid": 2,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "2.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Oblique_Head_and_Neck",
+              "D_ID": "D-Left_Oblique_Head_and_Neck",
+              "G_IDs": ["G-Head_and_Neck"],
+              "HG_IDs": ["HG-Head_and_Neck"]
+            }
+          },
+          {
+            "pathId": "1.-2",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": -3.7162441842249003,
+                "dev_y": 2.0418119029773765
+              },
+              "amid": 1,
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": [],
+              "laterality": [],
+              "amid": 1,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "1.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Oblique_Head_and_Neck",
+              "D_ID": "D-Left_Oblique_Head_and_Neck",
+              "G_IDs": ["G-Head_and_Neck"],
+              "HG_IDs": ["HG-Head_and_Neck"]
+            }
+          }
+        ],
+        "descriptions": ["General Comment", "", ""],
+        "links": [],
+        "pinDescriptionVisibility": true,
+        "files": [],
+        "morphologies": [],
+        "diagnoses": [
+          {
+            "icd": "",
+            "foundation": "",
+            "eC": "",
+            "sI": "",
+            "pM": "",
+            "exts": []
+          }
+        ],
+        "notes": ""
+      },
+      "bbb816af-5cef-4c2d-aeae-b838b1273014": {
+        "id": "bbb816af-5cef-4c2d-aeae-b838b1273014",
+        "listType": "grouped_procedure",
+        "listSubtype": "cryo_ak",
+        "isFirstDescriptionEdited": false,
+        "coords": {
+          "absCoords": {
+            "x": 563,
+            "y": 395
+          },
+          "svgCoords": {
+            "x": 1083.0595703125,
+            "y": 860.890625
+          }
+        },
+        "subType": "cryo_ak",
+        "pathId": "84-R.--data-egzt:2--data-egzx:100-2",
+        "names": {
+          "lateralityCodes": ["right"],
+          "laterality": ["right"],
+          "amid": 84,
+          "prefix": [],
+          "suffix": [],
+          "enhance_modifier": [],
+          "foundation_id": "",
+          "anatomy_mapper_id": "",
+          "name_emoji_grp": "",
+          "description": "",
+          "distribution": "",
+          "auto_related_name": [],
+          "anatomic_site": "84-R.",
+          "icd_codes": "",
+          "optional_separator": ";"
+        },
+        "layerInfo": {
+          "HMAP_ID": "HMAP-Frontal_Face",
+          "D_ID": "D-Frontal_Face",
+          "G_IDs": [
+            "Gseg-Nose_and_lips",
+            "G-Eyes_Nose_and_Lips_Closeup",
+            "G-Head_and_Neck"
+          ],
+          "HG_IDs": [
+            "HGseg-Nose_and_lips",
+            "HG-Eyes_Nose_and_Lips_Closeup",
+            "HG-Head_and_Neck"
+          ]
+        },
+        "egz": {
+          "egz": {
+            "egzt": 2,
+            "egzx": 100,
+            "egzy": 50
+          },
+          "deviation": {
+            "dev_x": 61.750165411636246,
+            "dev_y": 9.561875771702622,
+            "enhanceModX": null,
+            "enhanceModY": null
+          },
+          "amid": 84,
+          "side": "R",
+          "level": null
+        },
+        "itemType": "pin",
+        "hierarchy": [
+          {
+            "pathId": "80.-2",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": -31.773537834573872,
+                "dev_y": 2.7801216202781807
+              },
+              "amid": 80,
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": [],
+              "laterality": [],
+              "amid": 80,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "80.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Frontal_Face",
+              "D_ID": "D-Frontal_Face",
+              "G_IDs": [
+                "Gseg-Nose_and_lips",
+                "G-Eyes_Nose_and_Lips_Closeup",
+                "G-Head_and_Neck"
+              ],
+              "HG_IDs": [
+                "HGseg-Nose_and_lips",
+                "HG-Eyes_Nose_and_Lips_Closeup",
+                "HG-Head_and_Neck"
+              ]
+            }
+          },
+          {
+            "pathId": "37.-2",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": -10.32260067377973,
+                "dev_y": 32.185367550504466
+              },
+              "amid": 37,
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": [],
+              "laterality": [],
+              "amid": 37,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "37.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Frontal_Face",
+              "D_ID": "D-Frontal_Face",
+              "G_IDs": ["G-Eyes_Nose_and_Lips_Closeup", "G-Head_and_Neck"],
+              "HG_IDs": ["HG-Eyes_Nose_and_Lips_Closeup", "HG-Head_and_Neck"]
+            }
+          }
+        ],
+        "descriptions": ["Cryo - AK", "", ""],
+        "links": [],
+        "pinDescriptionVisibility": true,
+        "files": [],
+        "morphologies": [],
+        "diagnoses": [
+          {
+            "icd": "EK90",
+            "foundation": "",
+            "eC": "",
+            "sI": "",
+            "pM": "",
+            "exts": []
+          }
+        ],
+        "notes": ""
+      },
+      "d12246cf-2deb-4780-ad7b-fed6fc6a00f5": {
+        "id": "d12246cf-2deb-4780-ad7b-fed6fc6a00f5",
+        "listType": "painted_distribution",
+        "listSubtype": "dermatitis_nos",
+        "isFirstDescriptionEdited": false,
+        "coords": {
+          "absCoords": {
+            "x": 1064,
+            "y": 386
+          },
+          "svgCoords": {
+            "x": 2433.81982421875,
+            "y": 836.6254272460938
+          }
+        },
+        "subType": "dermatitis_nos",
+        "pathId": "301-R.--data-egzt:4",
+        "names": {
+          "lateralityCodes": ["right"],
+          "laterality": ["right"],
+          "amid": 301,
+          "prefix": [],
+          "suffix": [],
+          "enhance_modifier": [14, 8],
+          "foundation_id": "",
+          "anatomy_mapper_id": "",
+          "name_emoji_grp": "",
+          "description": "",
+          "distribution": "",
+          "auto_related_name": [],
+          "anatomic_site": "301-R.",
+          "icd_codes": "",
+          "optional_separator": ";"
+        },
+        "layerInfo": {
+          "HMAP_ID": "HMAP-Right_Palm",
+          "D_ID": "D-Right_Palm",
+          "G_IDs": ["G-Palmar_Hands", "G-Hands"],
+          "HG_IDs": ["HG-Palmar_Hands", "HG-Hands"]
+        },
+        "egz": {
+          "egz": {
+            "egzt": 4,
+            "egzx": 50,
+            "egzy": 50
+          },
+          "deviation": {
+            "dev_x": -72.77219006701554,
+            "dev_y": -50.753516472743016,
+            "enhanceModX": 14,
+            "enhanceModY": 8
+          },
+          "amid": 301,
+          "side": "R",
+          "level": null
+        },
+        "itemType": "region",
+        "hierarchy": [
+          {
+            "pathId": "297-R.",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": -33.95704411471532,
+                "dev_y": -31.491199697094938
+              },
+              "amid": 297,
+              "side": "R",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["right"],
+              "laterality": ["right"],
+              "amid": 297,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "297-R.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Right_Palm",
+              "D_ID": "D-Right_Palm",
+              "G_IDs": ["G-Palmar_Hands", "G-Hands"],
+              "HG_IDs": ["HG-Palmar_Hands", "HG-Hands"]
+            }
+          },
+          {
+            "pathId": "284-R.--data-pre1:17",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": 50,
+                "egzy": 50
+              },
+              "deviation": {
+                "dev_x": -16.976191995837873,
+                "dev_y": 25.526840670845328,
+                "enhanceModX": null,
+                "enhanceModY": null
+              },
+              "amid": 284,
+              "side": "R",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["right"],
+              "laterality": ["right"],
+              "amid": 284,
+              "prefix": [17],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "284-R.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Right_Palm",
+              "D_ID": "D-Right_Palm",
+              "G_IDs": ["G-Palmar_Hands", "G-Hands"],
+              "HG_IDs": ["HG-Palmar_Hands", "HG-Hands"]
+            }
+          },
+          {
+            "pathId": "255-R.",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": null,
+                "egzy": null
+              },
+              "deviation": {
+                "dev_x": -16.98907783874616,
+                "dev_y": 18.159030972983835
+              },
+              "amid": 255,
+              "side": "R",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["right"],
+              "laterality": ["right"],
+              "amid": 255,
+              "prefix": [],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "255-R.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Right_Palm",
+              "D_ID": "D-Right_Palm",
+              "G_IDs": ["G-Palmar_Hands", "G-Hands"],
+              "HG_IDs": ["HG-Palmar_Hands", "HG-Hands"]
+            }
+          }
+        ],
+        "descriptions": ["Dermatitis NOS", "", ""],
+        "links": [],
+        "pinDescriptionVisibility": true,
+        "files": [],
+        "morphologies": [],
+        "diagnoses": [
+          {
+            "icd": "EA8Z",
+            "foundation": "",
+            "eC": "",
+            "sI": "",
+            "pM": "",
+            "exts": []
+          }
+        ],
+        "notes": ""
+      },
+      "1aa1946c-5bf7-452e-8a91-fd477dc7d8df": {
+        "id": "1aa1946c-5bf7-452e-8a91-fd477dc7d8df",
+        "listType": "painted_distribution",
+        "listSubtype": "dermatitis_nos",
+        "isFirstDescriptionEdited": false,
+        "coords": {
+          "absCoords": {
+            "x": 1090,
+            "y": 551
+          },
+          "svgCoords": {
+            "x": 2503.919189453125,
+            "y": 1281.486572265625
+          }
+        },
+        "subType": "dermatitis_nos",
+        "pathId": "403-R.-3",
+        "names": {
+          "lateralityCodes": ["right"],
+          "laterality": ["right"],
+          "amid": 403,
+          "prefix": [],
+          "suffix": [],
+          "enhance_modifier": [],
+          "foundation_id": "",
+          "anatomy_mapper_id": "",
+          "name_emoji_grp": "",
+          "description": "",
+          "distribution": "",
+          "auto_related_name": [],
+          "anatomic_site": "403-R.",
+          "icd_codes": "",
+          "optional_separator": ";"
+        },
+        "layerInfo": {
+          "HMAP_ID": "HMAP-Right_Dorsal_Foot",
+          "D_ID": "D-Right_Dorsal_Foot",
+          "G_IDs": ["G-Dorsal_Feet", "G-Feet"],
+          "HG_IDs": ["HG-Dorsal_Feet", "HG-Feet"]
+        },
+        "egz": {
+          "egz": {
+            "egzt": null,
+            "egzx": null,
+            "egzy": null
+          },
+          "deviation": {
+            "dev_x": 52.33760105240181,
+            "dev_y": -69.64666390800878
+          },
+          "amid": 403,
+          "side": "R",
+          "level": null
+        },
+        "itemType": "region",
+        "hierarchy": [
+          {
+            "pathId": "402-R.--data-pre1:1",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": 50,
+                "egzy": 50
+              },
+              "deviation": {
+                "dev_x": 19.715462835804775,
+                "dev_y": -61.22365958831666,
+                "enhanceModX": null,
+                "enhanceModY": null
+              },
+              "amid": 402,
+              "side": "R",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["right"],
+              "laterality": ["right"],
+              "amid": 402,
+              "prefix": [1],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "402-R.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Right_Dorsal_Foot",
+              "D_ID": "D-Right_Dorsal_Foot",
+              "G_IDs": ["G-Dorsal_Feet", "G-Feet"],
+              "HG_IDs": ["HG-Dorsal_Feet", "HG-Feet"]
+            }
+          },
+          {
+            "pathId": "382-R.--data-pre1:8--data-pre2:1",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": 50,
+                "egzy": 50
+              },
+              "deviation": {
+                "dev_x": 2.8326485772598566,
+                "dev_y": 45.51607197454429,
+                "enhanceModX": null,
+                "enhanceModY": null
+              },
+              "amid": 382,
+              "side": "R",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["right"],
+              "laterality": ["right"],
+              "amid": 382,
+              "prefix": [8, 1],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "382-R.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Right_Dorsal_Foot",
+              "D_ID": "D-Right_Dorsal_Foot",
+              "G_IDs": ["G-Dorsal_Feet", "G-Feet"],
+              "HG_IDs": ["HG-Dorsal_Feet", "HG-Feet"]
+            }
+          }
+        ],
+        "descriptions": ["Dermatitis NOS", "", ""],
+        "links": [],
+        "pinDescriptionVisibility": true,
+        "files": [],
+        "morphologies": [],
+        "diagnoses": [
+          {
+            "icd": "EA8Z",
+            "foundation": "",
+            "eC": "",
+            "sI": "",
+            "pM": "",
+            "exts": []
+          }
+        ],
+        "notes": ""
+      },
+      "1185fbd7-d6fb-42b4-b0ee-a1aba61a50f7": {
+        "id": "1185fbd7-d6fb-42b4-b0ee-a1aba61a50f7",
+        "listType": "painted_distribution",
+        "listSubtype": "dermatitis_nos",
+        "isFirstDescriptionEdited": false,
+        "coords": {
+          "absCoords": {
+            "x": 1265,
+            "y": 583
+          },
+          "svgCoords": {
+            "x": 2975.741455078125,
+            "y": 1367.7626953125
+          }
+        },
+        "subType": "dermatitis_nos",
+        "pathId": "417-L.",
+        "names": {
+          "lateralityCodes": ["left"],
+          "laterality": ["left"],
+          "amid": 417,
+          "prefix": [],
+          "suffix": [],
+          "enhance_modifier": [],
+          "foundation_id": "",
+          "anatomy_mapper_id": "",
+          "name_emoji_grp": "",
+          "description": "",
+          "distribution": "",
+          "auto_related_name": [],
+          "anatomic_site": "417-L.",
+          "icd_codes": "",
+          "optional_separator": ";"
+        },
+        "layerInfo": {
+          "HMAP_ID": "HMAP-Left_Dorsal_Foot",
+          "D_ID": "D-Left_Dorsal_Foot",
+          "G_IDs": ["G-Dorsal_Feet", "G-Feet"],
+          "HG_IDs": ["HG-Dorsal_Feet", "HG-Feet"]
+        },
+        "egz": {
+          "egz": {
+            "egzt": null,
+            "egzx": null,
+            "egzy": null
+          },
+          "deviation": {
+            "dev_x": 50.52073042071836,
+            "dev_y": 13.254360475343269
+          },
+          "amid": 417,
+          "side": "L",
+          "level": null
+        },
+        "itemType": "region",
+        "hierarchy": [
+          {
+            "pathId": "416-L.--data-pre1:10--data-egzt:5",
+            "egz": {
+              "egz": {
+                "egzt": 5,
+                "egzx": 50,
+                "egzy": 50
+              },
+              "deviation": {
+                "dev_x": 50.52073042071836,
+                "dev_y": 13.254360475343269,
+                "enhanceModX": 14,
+                "enhanceModY": null
+              },
+              "amid": 416,
+              "side": "L",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["left"],
+              "laterality": ["left"],
+              "amid": 416,
+              "prefix": [10],
+              "suffix": [],
+              "enhance_modifier": [14],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "416-L.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Dorsal_Foot",
+              "D_ID": "D-Left_Dorsal_Foot",
+              "G_IDs": ["G-Dorsal_Feet", "G-Feet"],
+              "HG_IDs": ["HG-Dorsal_Feet", "HG-Feet"]
+            }
+          },
+          {
+            "pathId": "382-L.--data-pre1:8--data-pre2:1",
+            "egz": {
+              "egz": {
+                "egzt": null,
+                "egzx": 50,
+                "egzy": 50
+              },
+              "deviation": {
+                "dev_x": 47.718101100789845,
+                "dev_y": 12.692607592144837,
+                "enhanceModX": null,
+                "enhanceModY": null
+              },
+              "amid": 382,
+              "side": "L",
+              "level": null
+            },
+            "names": {
+              "lateralityCodes": ["left"],
+              "laterality": ["left"],
+              "amid": 382,
+              "prefix": [8, 1],
+              "suffix": [],
+              "enhance_modifier": [],
+              "foundation_id": "",
+              "anatomy_mapper_id": "",
+              "name_emoji_grp": "",
+              "description": "",
+              "distribution": "",
+              "auto_related_name": [],
+              "anatomic_site": "382-L.",
+              "icd_codes": "",
+              "optional_separator": ";"
+            },
+            "layerInfo": {
+              "HMAP_ID": "HMAP-Left_Dorsal_Foot",
+              "D_ID": "D-Left_Dorsal_Foot",
+              "G_IDs": ["G-Dorsal_Feet", "G-Feet"],
+              "HG_IDs": ["HG-Dorsal_Feet", "HG-Feet"]
+            }
+          }
+        ],
+        "descriptions": ["Dermatitis NOS", "", ""],
+        "links": [],
+        "pinDescriptionVisibility": true,
+        "files": [],
+        "morphologies": [],
+        "diagnoses": [
+          {
+            "icd": "EA8Z",
+            "foundation": "",
+            "eC": "",
+            "sI": "",
+            "pM": "",
+            "exts": []
+          }
+        ],
+        "notes": ""
+      }
+    },
+    "itemsOrderMap": {
+      "833049ff-d388-43b4-b88e-26ffaa1dfa9a": 0,
+      "9277ffb2-bdc3-4084-818b-3cc6565e8eb6": 1,
+      "514dcf8d-21e9-45e8-93af-a74fef69fe47": 2,
+      "c3ebffb2-2c5a-48c8-8a74-2d9ad366a0d9": 3,
+      "388b75e0-cadb-4fd9-95f7-30b752b8330f": 4,
+      "e51146a2-029b-44ec-908c-fad419e2e63f": 5,
+      "b406688b-407f-4aff-97fc-2af3b0b2226b": 0,
+      "bbb816af-5cef-4c2d-aeae-b838b1273014": 0,
+      "d12246cf-2deb-4780-ad7b-fed6fc6a00f5": 0,
+      "1aa1946c-5bf7-452e-8a91-fd477dc7d8df": 1,
+      "1185fbd7-d6fb-42b4-b0ee-a1aba61a50f7": 2
+    },
+    "lists": {
+      "ordered": {
+        "activeSubType": "shave_biopsy",
+        "isGroupMode": false,
+        "itemType": "pin",
+        "attr": {
+          "color": "red",
+          "visibility": true,
+          "locked": true,
+          "shape": "circle",
+          "order": "ABC",
+          "grouped": false,
+          "grouped_documentation": {
+            "links": []
+          },
+          "onlyOnMap": true,
+          "pinListSettings": {
+            "show_pin_description": false,
+            "use_qr": false,
+            "include_patient_info": false,
+            "load_originating_lang": false,
+            "include_encounter_info": false,
+            "use_enhanced_mod": false,
+            "auto_relate_pins": false
+          }
+        },
+        "itemsOrder": [
+          {
+            "id": "833049ff-d388-43b4-b88e-26ffaa1dfa9a",
+            "chosen": false,
+            "selected": false
+          },
+          {
+            "id": "9277ffb2-bdc3-4084-818b-3cc6565e8eb6"
+          },
+          {
+            "id": "514dcf8d-21e9-45e8-93af-a74fef69fe47"
+          },
+          {
+            "id": "c3ebffb2-2c5a-48c8-8a74-2d9ad366a0d9"
+          },
+          {
+            "id": "388b75e0-cadb-4fd9-95f7-30b752b8330f"
+          },
+          {
+            "id": "e51146a2-029b-44ec-908c-fad419e2e63f"
+          }
+        ]
+      },
+      "grouped_procedure": {
+        "activeSubType": "cryo_ak",
+        "isGroupMode": true,
+        "itemType": "pin",
+        "cryo_ak": {
+          "attr": {
+            "color": "#50E3C2",
+            "visibility": true,
+            "locked": true,
+            "shape": "asterik",
+            "order": "--",
+            "grouped": true,
+            "grouped_documentation": {
+              "links": []
+            },
+            "onlyOnMap": true,
+            "pinListSettings": {
+              "show_pin_description": false,
+              "use_qr": false,
+              "include_patient_info": false,
+              "load_originating_lang": false,
+              "include_encounter_info": false,
+              "use_enhanced_mod": false,
+              "auto_relate_pins": false
+            }
+          },
+          "itemsOrder": [
+            {
+              "id": "bbb816af-5cef-4c2d-aeae-b838b1273014",
+              "chosen": false,
+              "selected": false
+            }
+          ]
+        },
+        "cryo_isk": {
+          "attr": {
+            "color": "#7B4B23",
+            "visibility": true,
+            "locked": true,
+            "shape": "asterik",
+            "order": "--",
+            "grouped": true,
+            "grouped_documentation": {
+              "links": []
+            },
+            "onlyOnMap": true,
+            "pinListSettings": {
+              "show_pin_description": false,
+              "use_qr": false,
+              "include_patient_info": false,
+              "load_originating_lang": false,
+              "include_encounter_info": false,
+              "use_enhanced_mod": false,
+              "auto_relate_pins": false
+            }
+          },
+          "itemsOrder": []
+        },
+        "cryo_wart": {
+          "attr": {
+            "color": "#3C7100",
+            "visibility": true,
+            "locked": true,
+            "shape": "circle",
+            "order": "--",
+            "grouped": true,
+            "grouped_documentation": {
+              "links": []
+            },
+            "onlyOnMap": true,
+            "pinListSettings": {
+              "show_pin_description": false,
+              "use_qr": false,
+              "include_patient_info": false,
+              "load_originating_lang": false,
+              "include_encounter_info": false,
+              "use_enhanced_mod": false,
+              "auto_relate_pins": false
+            }
+          },
+          "itemsOrder": []
+        },
+        "injection_medication": {
+          "attr": {
+            "color": "#56DD29",
+            "visibility": true,
+            "locked": true,
+            "shape": "triangle",
+            "order": "--",
+            "grouped": true,
+            "grouped_documentation": {
+              "links": []
+            },
+            "onlyOnMap": true,
+            "pinListSettings": {
+              "show_pin_description": false,
+              "use_qr": false,
+              "include_patient_info": false,
+              "load_originating_lang": false,
+              "include_encounter_info": false,
+              "use_enhanced_mod": false,
+              "auto_relate_pins": false
+            }
+          },
+          "itemsOrder": []
+        }
+      },
+      "grouped_diagnosis": {
+        "activeSubType": "nevus",
+        "isGroupMode": true,
+        "itemType": "pin",
+        "nevus": {
+          "attr": {
+            "color": "red",
+            "visibility": true,
+            "locked": true,
+            "shape": "circle",
+            "order": "--",
+            "grouped": true,
+            "grouped_documentation": {
+              "links": []
+            },
+            "onlyOnMap": true,
+            "pinListSettings": {
+              "show_pin_description": false,
+              "use_qr": false,
+              "include_patient_info": false,
+              "load_originating_lang": false,
+              "include_encounter_info": false,
+              "use_enhanced_mod": false,
+              "auto_relate_pins": false
+            }
+          },
+          "itemsOrder": []
+        },
+        "eczema": {
+          "attr": {
+            "color": "red",
+            "visibility": true,
+            "locked": true,
+            "shape": "circle",
+            "order": "--",
+            "grouped": true,
+            "grouped_documentation": {
+              "links": []
+            },
+            "onlyOnMap": true,
+            "pinListSettings": {
+              "show_pin_description": false,
+              "use_qr": false,
+              "include_patient_info": false,
+              "load_originating_lang": false,
+              "include_encounter_info": false,
+              "use_enhanced_mod": false,
+              "auto_relate_pins": false
+            }
+          },
+          "itemsOrder": []
+        },
+        "acne": {
+          "attr": {
+            "color": "red",
+            "visibility": true,
+            "locked": true,
+            "shape": "circle",
+            "order": "--",
+            "grouped": true,
+            "grouped_documentation": {
+              "links": []
+            },
+            "onlyOnMap": true,
+            "pinListSettings": {
+              "show_pin_description": false,
+              "use_qr": false,
+              "include_patient_info": false,
+              "load_originating_lang": false,
+              "include_encounter_info": false,
+              "use_enhanced_mod": false,
+              "auto_relate_pins": false
+            }
+          },
+          "itemsOrder": []
+        },
+        "psoriasis": {
+          "attr": {
+            "color": "red",
+            "visibility": true,
+            "locked": true,
+            "shape": "circle",
+            "order": "--",
+            "grouped": true,
+            "grouped_documentation": {
+              "links": []
+            },
+            "onlyOnMap": true,
+            "pinListSettings": {
+              "show_pin_description": false,
+              "use_qr": false,
+              "include_patient_info": false,
+              "load_originating_lang": false,
+              "include_encounter_info": false,
+              "use_enhanced_mod": false,
+              "auto_relate_pins": false
+            }
+          },
+          "itemsOrder": []
+        },
+        "custom_look_up_diag": {
+          "attr": {
+            "color": "red",
+            "visibility": true,
+            "locked": true,
+            "shape": "circle",
+            "order": "--",
+            "grouped": true,
+            "grouped_documentation": {
+              "links": []
+            },
+            "onlyOnMap": true,
+            "pinListSettings": {
+              "show_pin_description": false,
+              "use_qr": false,
+              "include_patient_info": false,
+              "load_originating_lang": false,
+              "include_encounter_info": false,
+              "use_enhanced_mod": false,
+              "auto_relate_pins": false
+            }
+          },
+          "itemsOrder": []
+        },
+        "skin_cancer": {
+          "attr": {
+            "color": "red",
+            "visibility": true,
+            "locked": true,
+            "shape": "circle",
+            "order": "--",
+            "grouped": true,
+            "grouped_documentation": {
+              "links": []
+            },
+            "onlyOnMap": true,
+            "pinListSettings": {
+              "show_pin_description": false,
+              "use_qr": false,
+              "include_patient_info": false,
+              "load_originating_lang": false,
+              "include_encounter_info": false,
+              "use_enhanced_mod": false,
+              "auto_relate_pins": false
+            }
+          },
+          "itemsOrder": []
+        }
+      },
+      "single_diagnosis": {
+        "activeSubType": "acne",
+        "isGroupMode": false,
+        "itemType": "pin",
+        "attr": {
+          "color": "#97971E",
+          "visibility": true,
+          "locked": true,
+          "shape": "inside_circle",
+          "order": "123",
+          "grouped": false,
+          "grouped_documentation": {
+            "links": []
+          },
+          "onlyOnMap": true,
+          "pinListSettings": {
+            "show_pin_description": false,
+            "use_qr": false,
+            "include_patient_info": false,
+            "load_originating_lang": false,
+            "include_encounter_info": false,
+            "use_enhanced_mod": false,
+            "auto_relate_pins": false
+          }
+        },
+        "itemsOrder": []
+      },
+      "comments": {
+        "activeSubType": "general_comment",
+        "isGroupMode": false,
+        "itemType": "pin",
+        "attr": {
+          "color": "green",
+          "visibility": true,
+          "locked": true,
+          "shape": "inside_circle",
+          "order": "123",
+          "grouped": false,
+          "grouped_documentation": {
+            "links": []
+          },
+          "onlyOnMap": false,
+          "pinListSettings": {
+            "show_pin_description": false,
+            "use_qr": false,
+            "include_patient_info": false,
+            "load_originating_lang": false,
+            "include_encounter_info": false,
+            "use_enhanced_mod": false,
+            "auto_relate_pins": false
+          }
+        },
+        "itemsOrder": [
+          {
+            "id": "b406688b-407f-4aff-97fc-2af3b0b2226b",
+            "chosen": false,
+            "selected": false
+          }
+        ]
+      },
+      "painted_distribution": {
+        "activeSubType": "dermatitis_nos",
+        "isGroupMode": true,
+        "itemType": "region",
+        "dermatitis_nos": {
+          "attr": {
+            "color": "red",
+            "backgroundColor": "blue",
+            "isBkgColor": true,
+            "visibility": true,
+            "locked": true,
+            "opacity": 0.6,
+            "pattern": "dash",
+            "grouped_documentation": {
+              "links": []
+            },
+            "onlyOnMap": true,
+            "pinListSettings": {
+              "show_pin_description": false,
+              "use_qr": false,
+              "include_patient_info": false,
+              "load_originating_lang": false,
+              "include_encounter_info": false,
+              "use_enhanced_mod": false,
+              "auto_relate_pins": false
+            }
+          },
+          "itemsOrder": [
+            {
+              "id": "d12246cf-2deb-4780-ad7b-fed6fc6a00f5",
+              "chosen": false,
+              "selected": false
+            },
+            {
+              "id": "1aa1946c-5bf7-452e-8a91-fd477dc7d8df"
+            },
+            {
+              "id": "1185fbd7-d6fb-42b4-b0ee-a1aba61a50f7"
+            }
+          ]
+        },
+        "psoriasis": {
+          "attr": {
+            "color": "green",
+            "backgroundColor": "white",
+            "isBkgColor": true,
+            "visibility": true,
+            "locked": true,
+            "opacity": 0.6,
+            "pattern": "dash",
+            "grouped_documentation": {
+              "links": []
+            },
+            "onlyOnMap": true,
+            "pinListSettings": {
+              "show_pin_description": false,
+              "use_qr": false,
+              "include_patient_info": false,
+              "load_originating_lang": false,
+              "include_encounter_info": false,
+              "use_enhanced_mod": false,
+              "auto_relate_pins": false
+            }
+          },
+          "itemsOrder": []
+        },
+        "eczema": {
+          "attr": {
+            "color": "black",
+            "backgroundColor": "orange",
+            "isBkgColor": true,
+            "visibility": true,
+            "locked": true,
+            "opacity": 0.6,
+            "pattern": "dash",
+            "grouped_documentation": {
+              "links": []
+            },
+            "onlyOnMap": true,
+            "pinListSettings": {
+              "show_pin_description": false,
+              "use_qr": false,
+              "include_patient_info": false,
+              "load_originating_lang": false,
+              "include_encounter_info": false,
+              "use_enhanced_mod": false,
+              "auto_relate_pins": false
+            }
+          },
+          "itemsOrder": []
+        },
+        "seborrheic_dermatitis": {
+          "attr": {
+            "color": "yellow",
+            "backgroundColor": "black",
+            "isBkgColor": true,
+            "visibility": true,
+            "locked": true,
+            "opacity": 0.6,
+            "pattern": "dash",
+            "grouped_documentation": {
+              "links": []
+            },
+            "onlyOnMap": true,
+            "pinListSettings": {
+              "show_pin_description": false,
+              "use_qr": false,
+              "include_patient_info": false,
+              "load_originating_lang": false,
+              "include_encounter_info": false,
+              "use_enhanced_mod": false,
+              "auto_relate_pins": false
+            }
+          },
+          "itemsOrder": []
+        }
+      }
+    },
+    "binList": []
+  },
+  "userSettings": {
+    "mapSettings": {
+      "showHierarchy": true,
+      "hideOppositeGenderAnatomy": false,
+      "isOralAnatomyVisible": false
+    },
+    "generalSettings": {
+      "showTabTitleAsPatientInfo": false
+    },
+    "colorCodedLegendSettings": {
+      "correspondingColorText": true,
+      "semiTransparentBackgroud": true,
+      "indentAnatomicSite": false,
+      "showParentAtTop": false
+    },
+    "patientInfo": {
+      "firstName": "Test",
+      "lastName": "Tesr2",
+      "preferredName": "test3",
+      "DOB": "2019-06-14T06:43:00.000Z",
+      "gender": "male",
+      "MRN": "",
+      "physicianName": "",
+      "additionalInfo": "",
+      "hideOpposite": false,
+      "showOral": false,
+      "skinType": "",
+      "country": "BR",
+      "flag": "🇺🇸"
+    },
+    "patientImg": null,
+    "encounterInfo": {
+      "notes": "",
+      "sessionID": 42,
+      "IPaddress": "143.110.252.111",
+      "dateTime": "2022-06-15T16:17:00.000Z",
+      "IPAdress": "103.85.16.30"
+    },
+    "userSettings": {
+      "userEmail": "",
+      "physicianName": "",
+      "assistantName": "",
+      "clinicName": "",
+      "clinicAddress": "",
+      "clinicCountry": "AD",
+      "clinicPhone": "",
+      "clinicFax": "",
+      "clinicSite": "",
+      "clinicEmail": "",
+      "clinicInfo": "",
+      "clinicLogo": "",
+      "acceptLic": true,
+      "acceptStatement": true,
+      "clinicFlag": "🇺🇸",
+      "paperSize": "",
+      "clinicCountryOpts": {
+        "country_code_sort_order": 7,
+        "numeric_code": "020",
+        "english_short_name": "Andorra",
+        "alpha_2_code": "AD",
+        "alpha_3_code": "AND",
+        "emoji_code": "🇦🇩",
+        "paper_size": "A4",
+        "flag_unicodes": "U+1F1E6 U+1F1E9",
+        "flag_html_codes": "&#127462 &#127465",
+        "tr_text": "Andorre"
+      }
+    },
+    "language": "en",
+    "diagnosisLanguage": "en",
+    "fileNameSettings": {
+      "delimiter": "--",
+      "useEmoji": false,
+      "sequence": []
+    }
+  },
+  "modals": {
+    "colorCodedLegendModal": {
+      "state": false
+    },
+    "stringToNameTranslatorModal": {
+      "state": false
+    },
+    "snsModal": {
+      "state": false
+    },
+    "nameBuilderModal": {
+      "state": false,
+      "data": {
+        "itemId": ""
+      }
+    },
+    "pinDescriptionModal": {
+      "state": false,
+      "data": {
+        "itemId": ""
+      }
+    },
+    "exportTextListModal": {
+      "state": false
+    },
+    "linkEditor": {
+      "state": false,
+      "data": {
+        "itemId": "",
+        "isGrouped": false,
+        "listType": "",
+        "listSubtype": ""
+      }
+    },
+    "itemImage": {
+      "state": false,
+      "data": {
+        "itemId": "",
+        "index": -1
+      }
+    },
+    "fileNameBuilder": {
+      "state": false
+    },
+    "qrBuilderModal": {
+      "state": false,
+      "data": {
+        "listType": "",
+        "listSubtype": ""
+      }
+    },
+    "icd": {
+      "state": false,
+      "data": {
+        "itemId": ""
+      }
+    },
+    "copiedImg": {
+      "state": null
+    }
+  },
+  "app": {
+    "isSVGLoaded": true,
+    "mapContext": "list"
+  }
+}

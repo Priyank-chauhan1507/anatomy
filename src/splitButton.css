@@ -1,0 +1,46 @@
+.k-split-button,
+.k-button-group {
+  padding-bottom: 0 !important;
+  padding-inline: 10px;
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.k-split-button > .k-button:first-child {
+  color: #000;
+  margin: 0 !important;
+  width: 85%;
+  border: none !important;
+  outline: none !important;
+}
+.k-split-button > .k-button:last-child,
+.k-split-button > .k-split-button-arrow {
+  color: #000;
+  margin-left: 10px !important;
+  width: 15%;
+  border: none !important;
+  outline: none !important;
+}
+
+.app__mainBody__list__buttons Button {
+  margin: 5px;
+  /* background-color: #0c27c8; */
+  color: #000;
+  text-transform: inherit;
+  word-spacing: -1px;
+}
+
+.k-list-container {
+  /* margin-left: 12.7rem; */
+  z-index: 999999;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+.k-list {
+  padding: 20px !important;
+}
+
+.k-list-item {
+  padding: 20px !important;
+}
